@@ -45,6 +45,31 @@ const router = createRouter({
           component: () =>
             import(/* webpackChunkName: "tema3" */ '../views/Tema3.vue'),
         },
+        {
+          path: 'tema4',
+          name: 'tema4',
+          component: () => import('../views/Tema4.vue'),
+        },
+        {
+          path: 'tema5',
+          name: 'tema5',
+          component: () => import('../views/Tema5.vue'),
+        },
+        {
+          path: 'tema6',
+          name: 'tema6',
+          component: () => import('../views/Tema6.vue'),
+        },
+        {
+          path: 'tema7',
+          name: 'tema7',
+          component: () => import('../views/Tema7.vue'),
+        },
+        {
+          path: 'tema8',
+          name: 'tema8',
+          component: () => import('../views/Tema8.vue'),
+        },
       ],
     },
     {
