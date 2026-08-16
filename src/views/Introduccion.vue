@@ -17,10 +17,10 @@
           )
       .col-lg-8
         p Las comunicaciones públicas y ciudadanas cumplen una función esencial en la relación entre el Estado y la ciudadanía, ya que permiten que las personas ejerzan su derecho a acceder, conocer y comprender la información institucional. Sin embargo, este propósito no siempre se cumple cuando los mensajes son extensos, desordenados o poco relacionados con el contexto de la ciudadanía. Estas situaciones generan brechas comunicativas por el uso de tecnicismos, expresiones ambiguas y estructuras poco claras, creando barreras lingüísticas que dificultan la comprensión y limitan el acceso efectivo a la información pública.
-        .cajon.color-acento-contenido.p-4.mt-4
+        .cajon.color-primario.p-4.mt-4
           p.mb-0 En este componente se abordan los conceptos, las características, los tipos y los principios de la comunicación pública y ciudadana. Asimismo, se destacan el lenguaje claro, comprensible e inclusivo, las relaciones de poder y la garantía de derechos como elementos fundamentales para fortalecer la comunicación institucional, facilitar la comprensión de la información pública y reducir las barreras lingüísticas. De esta manera, se busca que el aprendiz identifique cómo la forma de comunicar puede acercar o alejar a la ciudadanía del ejercicio de sus derechos.
 
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
         :style="{'background-image':`url(${require_src('@/assets/curso/temas/intro/intro-2.jpg')})`}"
       )

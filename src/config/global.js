@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Comunicación pública y acceso ciudadano',
     Description:
-      'En este componente formativo se estudiará la comunicación pública y ciudadana, sus objetivos, alcances y enfoques, así como el uso de lenguajes claros, comprensibles e inclusivos para facilitar el acceso a la información y la garantía de derechos.',
+      'En este componente formativo se estudiará la comunicación pública y la ciudadana; resaltando los objetivos, alcances y enfoques según los tipos de información, abordando usos de tecnicismos, barreras lingüísticas, relaciones de poder y garantías de derecho; integrando el uso de lenguajes claros, comprensibles e inclusivos, contexto ciudadano y comunicativo, información pública, normatividad vigente y lineamientos institucionales.',
     imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.png',
     fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner-principal.png',
     imagenesDecorativasBanner: [

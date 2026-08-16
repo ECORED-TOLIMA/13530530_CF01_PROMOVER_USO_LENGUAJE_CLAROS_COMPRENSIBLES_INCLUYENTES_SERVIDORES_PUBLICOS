@@ -85,12 +85,230 @@ figcaption
     width: 100%
     z-index: 1
 
+// Tema 1
+.cajon.color-primario
+  background-color: #F6F3FF
+.cajon.color-secundario
+  background-color: #FEDEDE
+
+.BGTARG
+  background-image: url("../assets/curso/temas/bg/imgfondoslf.svg")
+  background-repeat: no-repeat
+  background-position: center
+  h5, p
+    color: $black !important
 
 
+.BG01
+  background-image: url("../assets/curso/temas/bg/imgbgslyder.png")
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+  margin-inline: -3.5rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
 
+.BG02
+  background: linear-gradient(to bottom, $white 0%, #FFEFEF 37%, #FFEFEF 63%, $white 100%)
+  margin-inline: -3.5rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
 
+.BG03
+  background: linear-gradient(to bottom, $white 0%, #F6F3FF 27%, #F6F3FF 73%, $white 100%)
+  margin-inline: -3.5rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
 
+.BG04
+  background: linear-gradient(to bottom, $white 0%, #F6F3FF 17%, #F6F3FF 82%, $white 100%)
+  margin-inline: -3.5rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
 
+.lista-ol--cuadro__vineta
+  color: #000000
+.lista-ol li, .lista-ol--cuadro li, .lista-ul li, .lista-ul--separador li, .lista-ul--color li 
+  display: flex
+.fa-angle-right
+  color: $white !important
+.fa-angle-right
+  color: $white !important
+.slyder__btn
+  background-color: #A82909
+
+.tema1-apertura
+  background-color: #E8E5FF !important
+.bgwhite
+  background-color: #FFFFFF
+  &__imagen
+    height: 100%
+    margin: 0
+
+    img
+      height: 100%
+      object-fit: cover
+      width: 100%
+
+  &__contenido
+    align-items: flex-start
+    display: flex
+    flex-direction: column
+    height: 100%
+    justify-content: center
+
+  &__icono
+    height: 80px
+    width: 80px
+
+.tema1-puente-fondo
+  background-color: #F1EFFF
+.tarjeta-avatar
+  .tarjeta.color-primario
+    background-color: #FEDEDE
+.tema1-definicion__icono
+  width: 84px
+
+.tema1-tabla
+  thead
+    background-color: #E5E4FE
+
+  tbody tr
+    &:nth-child(odd)
+      background-color: #F6F6F6
+
+    &:nth-child(even)
+      background-color: $white
+
+  td:first-child
+    font-weight: 700
+
+.titulo-pastilla
+  display: inline-flex
+  align-items: center
+  gap: 14px
+  background-color: #A0FF89
+  border-radius: 25px
+  height: 33px
+  padding: 0 26px 0 8px
+  margin-bottom: 24px
+  img
+    width: 50px
+    height: auto
+    margin-left: -8px
+  span
+    font-weight: 700
+    font-size: 1.125em
+    color: $color-sistema-texto
+    line-height: 1
+
+.tarjeta--azul
+  background-color: #FFEDC9
+.acordion__activo
+  background-color: #FEDEDE
+
+.acordion__accion__btn--b
+  border: 1px solid #FFB303
+  background-color: #FFB303
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #ffb303
+  border: 1px solid #ffb303
+
+.slyder-a__bullets__item
+  background-color: #BDB6FB
+.slyder-a__bullets__item--active
+  background-color: #FFB303
+  border-color: #FFB303
+.tema1-apertura
+  background-color: #E8E5FF !important
+.bgwhite
+  background-color: #FFFFFF
+
+// Tema 2
+.tema2-descarga
+  background-color: #FFF0CC
+  border-radius: 1.25rem
+  figure
+    margin: 0
+  &--compacta
+    border-radius: .75rem
+.tema2-enfoque
+  &--claro
+    background-color: #F1EFFF
+  &--comprensible
+    background-color: #D9FFD0
+  &--inclusivo
+    background-color: #FEDEDE
+.tema2-caracteristica
+  &--1
+    border-color: #E5E4FE
+    .tarjeta-numerada__numero
+      background-color: #E5E4FE
+  &--2
+    border-color: #A0FF89
+    .tarjeta-numerada__numero
+      background-color: #A0FF89
+  &--3
+    border-color: #FFC4C4
+    .tarjeta-numerada__numero
+      background-color: #FFC4C4
+  &--4
+    border-color: #91BFFF
+    .tarjeta-numerada__numero
+      background-color: #91BFFF
+
+.linea-tiempo-d__item__content__title
+  background-color: #FFEDC9
+.linea-tiempo-d__item__content__slot
+  background-color: #FEDEDE
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title, .linea-tiempo-d__item__content__slot
+  background-color: #FFE6E7
+.tarjeta--gris
+  background-color: #FFEDC9
+
+.tarjeta-numerada.color-adicional-1
+  border-color: #DDADFC
+
+.tarjeta-numerada.color-adicional-1 .tarjeta-numerada__numero
+  background-color: #DDADFC
+
+// Tema 3
+.tema3-icono
+  width: 84px
+
+.tema3-tipo
+  background-color: #E5E4FE
+  overflow: hidden
+
+  &__imagen
+    align-items: center
+    background-color: #4B19B9
+    display: flex
+    justify-content: center
+
+    img
+      height: 150px
+      width: 150px
+
+// Tema 4
+.tema4-icono
+  width: 84px
+
+// Tema 5
+.tema5-icono
+  width: 84px
+
+.tema5-contexto
+  &--ciudadano
+    background-color: #F6F3FF
+  &--comunicativo
+    background-color: #FEDEDE
+  &__icono
+    width: 152px
+
+i.fas.fa-comment-dots
+  color:#72FD50
 /**************************************************************/
 /*Media Queries*/  
 /**************************************************************/
@@ -108,6 +326,8 @@ figcaption
     width: 90% !important
   .intro-imagen-principal
     min-height: 440px
+  .tema1-apertura__imagen
+    max-height: 430px
 
   
  
@@ -125,6 +345,5 @@ figcaption
     margin-bottom: 2em  !important
   .intro-imagen-principal
     min-height: 300px
-
   
  
