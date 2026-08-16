@@ -352,12 +352,27 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Gustavo Ernesto Mariño Puentes',
-          cargo: 'Experto temático',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          nombre: 'Jhacesiz Mary Hincapié',
+          cargo: 'Experta temática',
+          centro: 'Centro Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Gloria Lida Alzate Suárez',
+          nombre: 'Adriana María Bustamante',
+          cargo: 'Experta temática',
+          centro: 'Centro Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Erika Alejandra Parra',
+          cargo: 'Experta temática',
+          centro: 'Centro Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Hugo Armando López',
+          cargo: 'Experta temátic0',
+          centro: 'Centro Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
           cargo: 'Evaluadora instruccional',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
@@ -367,17 +382,17 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Juan Daniel Polanco Muñoz',
+          nombre: 'José Jaime Luis Tang Pinzón',
           cargo: 'Diseñador de contenidos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Manuel Felipe Echavarria Orozco',
+          nombre: 'Veimar Celis Melendez',
           cargo: 'Desarrollador <em>full stack</em>',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Gilberto Junior Rodríguez Rodríguez',
+          nombre: 'Ernesto Navarro Jaimes',
           cargo: 'Animador y productor audiovisual',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
