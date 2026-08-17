@@ -1,5 +1,290 @@
 # Guía de maquetación parametrizada
 
+## Estándar consolidado para futuras maquetaciones
+
+Esta sección resume el método construido durante la maquetación de los Temas 1 al 8. Debe utilizarse como guía principal al iniciar otro programa o componente formativo. El registro detallado que aparece después se conserva como historial de decisiones y ejemplos de aplicación.
+
+### 1. Principio de trabajo
+
+La maquetación se realiza por bloques. El PDF o archivo de diseño define la composición visual; el archivo `TemaX.vue` aporta el contenido; y los componentes institucionales proporcionan la estructura y el comportamiento.
+
+Reglas de revisión:
+
+- Solo se modifica el bloque señalado. Los bloques no mencionados se consideran aprobados.
+- La información correcta se conserva aunque cambie el componente que la presenta.
+- Las imágenes y colores aprobados se mantienen cuando el ajuste solicitado es únicamente estructural.
+- Si se agrega una muestra en el archivo, se toma como patrón, se aplica al bloque definitivo y luego se elimina para evitar contenido duplicado.
+- Antes de crear CSS propio se revisan los componentes y estilos institucionales existentes.
+- El CSS personalizado debe limitarse a necesidades que el componente institucional no resuelva, como un fondo, degradado o tamaño particular aprobado.
+
+### 2. Insumos que deben revisarse
+
+Antes de editar se debe comprobar:
+
+1. La página correspondiente del PDF o archivo de diseño.
+2. El contenido existente en `src/views/TemaX.vue`.
+3. Las imágenes disponibles en `src/assets/curso/temas/tX/`.
+4. Los componentes ya utilizados en otros archivos `TemaX.vue`.
+5. Los estilos institucionales ubicados en `src/styles/componentes/`.
+6. Las reglas generales y clases existentes en `src/styles/_custom.sass`.
+
+### 3. Formato recomendado para solicitar una revisión
+
+Cada ajuste debe describirse de esta forma:
+
+```text
+Bloque: nombre, clase o fila donde inicia
+Estado actual: qué está correcto y qué está incorrecto
+Resultado esperado: cómo debe quedar
+Componente sugerido: componente institucional o bloque de referencia
+Qué debe cambiar: estructura, color, imagen, margen o contenido
+Motivo: razón institucional, visual, responsiva o de accesibilidad
+```
+
+Si un dato está correcto debe indicarse expresamente. Por ejemplo: “información, imágenes y colores correctos; cambiar solo la estructura”.
+
+### 4. Flujo estándar de implementación
+
+1. Inspeccionar el bloque solicitado y su referencia.
+2. Identificar qué partes deben conservarse.
+3. Confirmar el componente institucional apropiado.
+4. Aplicar la estructura Pug respetando su jerarquía e indentación.
+5. Aplicar las reglas de títulos, márgenes, párrafos e imágenes.
+6. Retirar muestras o CSS personalizado que haya quedado sin uso.
+7. Registrar en este documento el cambio y el criterio aprendido.
+8. Ejecutar `npm run build`.
+9. Corregir cualquier error de Pug, ruta o componente antes de finalizar.
+
+### 5. Reglas generales de estructura y espaciado
+
+- La separación normal entre bloques se maneja con `.mb-4` o `.mt-4`.
+- No se deben introducir márgenes arbitrarios cuando las utilidades institucionales sean suficientes.
+- El último párrafo dentro de un bloque debe usar `p.mb-0`.
+- Si el elemento siguiente es `Separador`, el bloque anterior debe cerrar con `.mb-0`.
+- Los cajones que el diseño presenta centrados deben ubicarse normalmente en `.row.justify-content-center > .col-lg-10`.
+- Se debe mantener una retícula responsiva con clases Bootstrap y contemplar el apilamiento en pantallas pequeñas.
+- Los títulos internos de sliders, acordeones y tarjetas avatar deben utilizar `h5`.
+
+### 6. Regla de imágenes y accesibilidad
+
+- Toda imagen que no corresponda a una figura numerada debe usar `alt=""`.
+- Las figuras numeradas deben incluir un texto alternativo descriptivo que comunique la información esencial de la figura.
+- Si una figura tiene versiones para escritorio y móvil, ambas deben conservar el mismo texto alternativo.
+- Las imágenes usadas como fondo se cargan mediante `require_src` dentro de `:style`.
+- Las rutas deben apuntar a `@/assets/curso/...` y respetar exactamente el nombre y extensión del archivo.
+
+### 7. Patrones institucionales aprobados
+
+#### Bloque de apertura con imagen e icono
+
+```pug
+.row.g-0.align-items-stretch.tema1-apertura.mb-4
+  .col-lg-5
+    figure.tema1-apertura__imagenF
+      img(src="@/assets/curso/temas/tX/img1.png" alt="")
+  .col-lg-7
+    .row.p-4.mb-3
+      .col-lg-2
+        img.tema1-apertura__icono.mb-4(src="@/assets/curso/temas/tX/img2.svg" alt="")
+      p.mb-0 Texto del bloque.
+```
+
+#### Cajón centrado a diez columnas
+
+```pug
+.row.justify-content-center.mb-4
+  .col-lg-10
+    .cajon.color-primario.p-4
+      p.mb-0 Texto destacado.
+```
+
+El color puede cambiar a `color-secundario` si el diseño lo indica.
+
+#### Título interno tipo pastilla
+
+```pug
+.titulo-pastilla.mt-4(data-aos="fade-down")
+  img(src="@/assets/curso/icon.svg" alt="")
+  span Título del bloque
+```
+
+#### Título de tabla o figura numerada
+
+```pug
+.titulo-sexto.color-acento-contenido.mb-3.mt-4
+  h5 Figura 1.
+  span Nombre de la figura
+```
+
+Para tablas se reemplaza “Figura” por “Tabla”.
+
+#### Figura responsiva numerada
+
+```pug
+.row.justify-content-center.mb-4
+  .col-12.d-none.d-lg-block
+    figure
+      img(src="@/assets/curso/temas/tX/figura.svg" alt="Descripción de la figura.")
+  .col-12.d-block.d-lg-none
+    figure
+      img(src="@/assets/curso/temas/tX/figura_movil.svg" alt="Descripción de la figura.")
+```
+
+#### Tabla institucional con filas alternadas
+
+```pug
+.tabla-a.color-acento-contenido.tema1-tabla.mb-4
+  table
+    thead
+      tr
+        th Encabezado
+    tbody
+      tr
+        td Contenido
+```
+
+La clase `.tema1-tabla` aplica encabezado `#E5E4FE`, filas impares `#F6F6F6`, filas pares blancas y primera columna en negrita.
+
+#### `tarjeta-avatar`
+
+```pug
+.row.justify-content-center.mb-0
+  .col-md-6.col-xl-4.mb-4.mb-xl-0
+    .tarjeta-avatar
+      img(src="@/assets/curso/temas/tX/icono.svg" alt="")
+      .tarjeta.color-primario.w-100.h-100.mt-3
+        .p-4
+          h5.text-center Título
+          p.mb-0 Contenido.
+```
+
+La tarjeta debe incluir `w-100`, `h-100`, `mt-3` y un contenedor interior `.p-4` para conservar uniformidad.
+
+#### `tarjeta--container`
+
+```pug
+.tarjeta--container.row.mb-4
+  .col-md.tarjeta.clase-de-color.p-5
+    .row.justify-content-center.mb-4
+      .col-6
+        figure
+          img(src="@/assets/curso/temas/tX/icono.svg" alt="")
+    h5.text-center Título
+    p.mb-0 Contenido.
+```
+
+#### `tarjeta-numerada`
+
+```pug
+.tarjeta-numerada.clase-de-color.p-5.h-100
+  .tarjeta-numerada__numero
+    .h2 1
+  h5.text-center Título
+  p.mb-0.text-center Contenido.
+```
+
+#### `LineaTiempoD`
+
+```pug
+LineaTiempoD.color-acento-botones
+  p.mb-0(numero="1" titulo="Título") Contenido del elemento.
+  p.mb-0(numero="2" titulo="Título") Contenido del elemento.
+```
+
+Cada elemento debe ser hijo directo de `LineaTiempoD` y declarar `numero` y `titulo`.
+
+#### `AcordionA`
+
+```pug
+AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
+  .row(titulo="Título")
+    p.mb-0 Contenido.
+```
+
+#### Slider con fondo institucional
+
+```pug
+.BG01.px-5.p-5.mb-4
+  .bgwhite.p-4
+    SlyderA(tipo="b")
+      .row.align-items-center
+        .col-lg-6.mb-4.mb-lg-0
+          h5 Título
+          p.mb-0 Contenido.
+        .col-lg-6
+          figure
+            img(src="@/assets/curso/temas/tX/imagen.png" alt="")
+```
+
+Las clases `.BG02`, `.BG03` y `.BG04` pueden sustituir a `.BG01` cuando el diseño requiera otro degradado, conservando el panel interior `.bgwhite.p-4`.
+
+#### `bloque-texto-g`
+
+```pug
+.bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-4
+  .bloque-texto-g__img(
+    role="img"
+    :style="{'background-image':`url(${require_src('@/assets/curso/temas/tX/imagen.png')})`}"
+  )
+  .bloque-texto-g__texto.p-4
+    p.mb-0 Contenido.
+```
+
+#### Lista numerada institucional
+
+```pug
+ol.lista-ol--cuadro.mb-0
+  li
+    .lista-ol--cuadro__vineta
+      span 1
+    | Contenido del elemento.
+```
+
+### 8. Uso de fondos y CSS personalizado
+
+- Los fondos amplios deben extenderse mediante `margin-inline` y contemplar el ajuste para móvil.
+- Cuando una imagen de fondo no se degrade correctamente en los bordes, debe reemplazarse por un `linear-gradient` equivalente.
+- Los colores particulares se asignan con clases modificadoras sin reescribir la geometría del componente institucional.
+- Si una clase personalizada deja de utilizarse después de adoptar el componente institucional, debe eliminarse.
+
+### 9. Documentación de cada revisión
+
+Cada cambio registrado debe incluir:
+
+- Bloque revisado.
+- Estado anterior.
+- Estructura o componente aplicado.
+- Elementos que se conservaron.
+- Elementos que se eliminaron o reemplazaron.
+- Regla general aprendida.
+- Resultado de la validación.
+
+El objetivo no es documentar únicamente qué se cambió, sino por qué esa solución debe reutilizarse.
+
+### 10. Lista de validación final
+
+Antes de cerrar un tema se debe confirmar:
+
+- [ ] El contenido coincide con el documento fuente.
+- [ ] Las imágenes corresponden al bloque correcto y sus rutas funcionan.
+- [ ] No quedaron muestras ni contenido duplicado.
+- [ ] Los componentes institucionales mantienen su estructura aprobada.
+- [ ] Los títulos internos usan `h5`.
+- [ ] Los márgenes siguen las reglas `.mb-4`, `.mt-4` y `.mb-0`.
+- [ ] Los párrafos finales usan `p.mb-0`.
+- [ ] Las imágenes no numeradas usan `alt=""`.
+- [ ] Las figuras numeradas tienen título y texto alternativo descriptivo.
+- [ ] La vista responde correctamente en escritorio y móvil.
+- [ ] No existe CSS personalizado sin uso.
+- [ ] `npm run build` finaliza sin errores.
+- [ ] La revisión quedó registrada en `maquetacion.md`.
+
+---
+
+## Historial detallado de implementación
+
+Las secciones siguientes contienen el proceso completo de configuración y las revisiones realizadas durante este componente formativo. Sirven como banco de ejemplos y evidencia de las decisiones que dieron origen al estándar consolidado.
+
 ## Regla general para el atributo `alt` de las imágenes
 
 - Todas las imágenes que no correspondan a una figura numerada deben declararse con `alt=""`.

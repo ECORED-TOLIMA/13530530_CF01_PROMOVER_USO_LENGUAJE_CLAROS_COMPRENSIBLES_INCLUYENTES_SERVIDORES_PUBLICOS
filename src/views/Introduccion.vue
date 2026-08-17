@@ -8,11 +8,11 @@
           i.fas.fa-info
       h1 Introducción
     
-    .row.mb-5
-      .col-lg-4.mb-4.mb-lg-0
-        figure.intro-imagen-principal.h-100
+    .row.align-items-center.justify-content-center.mb-4
+      .col-lg-4.col-8.mb-4.mb-lg-0
+        figure.h-100
           img(
-            src="@/assets/curso/temas/intro/intro-1.jpg"
+            src="@/assets/curso/temas/intro/img1.png"
             alt="Grupo de personas consultando información mediante dispositivos móviles durante una reunión"
           )
       .col-lg-8

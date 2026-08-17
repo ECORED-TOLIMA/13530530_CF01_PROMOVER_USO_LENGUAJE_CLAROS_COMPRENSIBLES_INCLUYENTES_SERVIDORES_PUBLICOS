@@ -6,9 +6,9 @@
       .titulo-principal__numero
         span 4
       h1 Garantías de derecho
-    .row.align-items-center.mb-0
-      .col-lg-5.mb-4.mb-lg-0
-        figure.intro-imagen-principal
+    .row.align-items-center.justify-content-center.mb-0
+      .col-lg-5.col-8.mb-4.mb-lg-0
+        figure
           img(src="@/assets/curso/temas/t4/img1.png" alt="")
       .col-lg-7
         .cajon.color-primario.p-4.mb-4
@@ -19,7 +19,7 @@
       h2 4.1 Fundamentos, mecanismos y normatividad
     .BG02.px-5
       .row
-        .col-md-auto.text-center.mb-4.mb-md-0
+        .col-md-auto.text-center.mb-4.mb-md-0.d-none.d-lg-block
           img.tema4-icono(src="@/assets/curso/temas/t4/img2.svg" alt="")
         .col
           p.mb-0 La garantía de derechos se da principalmente a través de un concepto fundamental: si un ciudadano no comprende una comunicación emitida por un organismo gubernamental, automáticamente sus derechos se empiezan a ver vulnerados y servicios esenciales como la salud, la educación, la justicia o la vivienda pasan por un proceso de desprotección. Como herramientas para la exigencia de sus derechos, los ciudadanos pueden utilizar los canales oficiales de atención, audiencias públicas de rendición de cuentas o un derecho de petición; en el común denominador de las entidades existen buzones físicos y virtuales para PQRS como herramienta para la comunicación directa con la entidad. La garantía de derechos se estructura con la Ley de Transparencia y del Derecho de Acceso a la Información Pública Nacional (Ley 1712 de 2014); también con la Circular 100-010 de agosto de 2023, donde la rama ejecutiva dicta medidas para fortalecer la implementación de lenguajes claros; y, respectivamente, cada entidad habrá realizado su propia adaptación en estos términos.

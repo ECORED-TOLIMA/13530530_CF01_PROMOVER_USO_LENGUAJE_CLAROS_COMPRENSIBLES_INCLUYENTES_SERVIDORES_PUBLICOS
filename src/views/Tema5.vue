@@ -27,7 +27,7 @@
       h2 5.1 Características, condiciones sociales y culturales
 
     .row.align-items-center.mb-4
-      .col-md-auto.text-center.mb-4.mb-md-0
+      .col-md-auto.text-center.mb-4.mb-md-0.d-none.d-lg-block
         img.tema5-icono(src="@/assets/curso/temas/t5/img3.svg" alt="")
       .col
         p.mb-0 La efectividad de la comunicación pública también depende del contexto en el que las personas reciben e interpretan la información. Por ello, a continuación, se presentan de manera breve el contexto ciudadano y el contexto comunicativo, dos elementos que influyen en la comprensión de los mensajes y en la interacción entre el Estado y la ciudadanía:
@@ -35,14 +35,14 @@
     .tarjeta--container.row.mb-4
       .col-md.tarjeta.tema5-contexto--ciudadano.p-5
         .row.justify-content-center.mb-4
-          .col-3
+          .col-lg-3
             figure
               img(src="@/assets/curso/temas/t5/img4.svg" alt="")
         h5.text-center Contexto ciudadano
         p.mb-5 Se refiere al conjunto de condiciones, características, necesidades y realidades que influyen en la manera como las personas se relacionan con la información pública. De esta forma, aspectos como el lugar donde viven, el nivel de acceso a canales digitales o presenciales, el conocimiento previo sobre trámites, la familiaridad con el lenguaje institucional, la edad, la ocupación, las condiciones sociales y las formas de participación en la vida pública.
       .col-md.tarjeta.tema5-contexto--comunicativo.p-5
         .row.justify-content-center.mb-4
-          .col-3
+          .cocol-lg-3
             figure
               img(src="@/assets/curso/temas/t5/img5.svg" alt="")
         h5.text-center Contexto comunicativo
@@ -88,7 +88,7 @@
                 img(src="@/assets/curso/temas/t5/img8.png" alt="")
 
     .row.align-items-center.mb-0
-      .col-md-auto.text-center.mb-4.mb-md-0
+      .col-md-auto.text-center.mb-4.mb-lg-0.d-none.d-lg-block
         img.tema5-icono(src="@/assets/curso/temas/t5/img9.svg" alt="")
       .col
         p.mb-0 En el contexto comunicativo un elemento importante es el #[strong canal] por donde se emite la información. La entidad puede contar con recursos como página web, redes sociales, correo electrónico, atención presencial, línea telefónica y piezas impresas; sin embargo, el canal más adecuado no siempre es el más moderno, sino el que permite que la información sea comprendida por las personas destinatarias.

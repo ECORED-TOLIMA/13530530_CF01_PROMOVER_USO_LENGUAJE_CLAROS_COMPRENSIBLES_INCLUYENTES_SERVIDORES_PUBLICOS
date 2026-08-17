@@ -23,7 +23,7 @@
 
     p.mb-4 Después de reconocer que la comunicación pública y ciudadana puede acercar o alejar a las personas de la información, resulta necesario avanzar hacia una pregunta:
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-1.mb-4.mb-lg-0
+      .col-lg-1.mb-4.mb-lg-0.d-none.d-lg-block
         img(src="@/assets/curso/temas/t2/img2.svg" alt="")
       .col-lg-9
         .cajon.color-secundario.p-3
@@ -61,8 +61,8 @@
       img(src="@/assets/curso/temas/t2/img6.png" alt="")
     p.mb-4 El lenguaje claro es una estrategia de comunicación integral que busca que las audiencias entiendan un mensaje institucional desde la primera lectura o escucha. No consiste en infantilizar el discurso, sino en simplificar la estructura gramatical para optimizar el acceso a la información.
     p.mb-4 Entre las características de los lenguajes claros se encuentran:
-    .row.mb-4
-      .col-lg-5.mb-4.mb-lg-0
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-5.col-8.mb-4.mb-lg-0
         img(src="@/assets/curso/temas/t2/img7.png" alt="")
       .col-lg-7
         LineaTiempoD.color-acento-botones
@@ -113,7 +113,7 @@
       h2 2.3 Lenguaje inclusivo: concepto, características y tipos
     .tema2-descarga.tema2-descarga--compacta.p-4.mb-4
       .row.align-items-center
-        .col-md-1.mb-4.mb-md-0
+        .col-md-1.mb-4.mb-md-0.d-none.d-md-block
           img(src="@/assets/curso/temas/t2/img9.svg" alt="")
         .col-md-8.mb-4.mb-md-0
           h5 Guía para la orientación en el uso de lenguaje inclusivo
@@ -128,8 +128,8 @@
         .cajon.color-primario.p-4
           p.mb-0 Usar lenguaje inclusivo no significa hacer textos más complejos ni reforzar expresiones difíciles de leer, su finalidad es comunicar con #[strong respeto, precisión y reconocimiento]. En el contexto institucional, esto implica revisar si los mensajes tratan a las personas de manera #[strong digna], si evitan generalizaciones que puedan excluir y si usan términos adecuados para referirse a grupos los grupos poblacionales.
     p.mb-4 Las características que lo destacan son las siguientes:
-    .row.align-items-center.mb-4
-      .col-lg-5.mb-4.mb-lg-0
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-5.col-8.mb-4.mb-lg-0
         img(src="@/assets/curso/temas/t2/img10.png" alt="")
       .col-lg-7
         LineaTiempoD.color-acento-botones

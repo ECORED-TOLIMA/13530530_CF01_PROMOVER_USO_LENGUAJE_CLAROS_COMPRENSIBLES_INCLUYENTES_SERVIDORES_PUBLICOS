@@ -21,6 +21,20 @@
   100%
     transform: translateY(0px)
 
+.banner-principal
+  .container.tarjeta
+    background-image: url("../assets/curso/portada/fondo-banner-principal.png")
+    background-size: 100% 100% !important
+    background-position: center
+    min-height: 520px
+    @media (max-width: $bp-max-md)
+      background-image: url("../assets/curso/portada/fondo-banner-principal-md.png") !important
+    @media (max-width: $bp-max-xs)
+      background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/imgbaner.png") !important
+
 .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
   flex: 0 0 auto !important
   width: 58.33333333% !important
@@ -28,6 +42,7 @@
   padding-bottom: 0 !important
 //.banner-principal__row .banner-principal__img 
 //    width: 33%;
+
 
 .boton *, .boton--sm *,
 .barra-avance__boton--regresar span
@@ -41,14 +56,14 @@ figcaption
     font-weight: normal !important
 
 .banner-interno__titulo__icono i
-    color: $color-acento-botones !important
+    color: $white !important
 
 
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
 .p-full-width
-  padding: 3rem 3.5rem!important;
+  padding: 3rem 3.5rem!important
 .bg-full-width
   background-size: cover
   background-repeat: no-repeat
@@ -130,10 +145,11 @@ figcaption
   color: #000000
 .lista-ol li, .lista-ol--cuadro li, .lista-ul li, .lista-ul--separador li, .lista-ul--color li 
   display: flex
-.fa-angle-right
-  color: $white !important
-.fa-angle-right
-  color: $white !important
+.slyder__btn
+  .fa-angle-right
+    color: $white !important
+  .fa-angle-left
+    color: $white !important
 .slyder__btn
   background-color: #A82909
 
@@ -192,6 +208,9 @@ figcaption
   height: 33px
   padding: 0 26px 0 8px
   margin-bottom: 24px
+  @media (max-width: $bp-max-sm)
+    height: auto
+    padding: 8px 26px 8px 8px
   img
     width: 50px
     height: auto
@@ -206,7 +225,8 @@ figcaption
   background-color: #FFEDC9
 .acordion__activo
   background-color: #FEDEDE
-
+.fa-chevron-right, .fa-chevron-left
+  color: #FFB303
 .acordion__accion__btn--b
   border: 1px solid #FFB303
   background-color: #FFB303
@@ -336,6 +356,9 @@ i.fas.fa-comment-dots
 @media screen and (max-width: $bp-min-md)
   .mb-cus
     margin-bottom: 2em  !important  
+  .linea-tiempo-d__item__content__title
+    height: auto !important
+    padding: 0.5em 1em !important
 
   
 

@@ -12,7 +12,7 @@
           img(src="@/assets/curso/temas/t6/img1.png" alt="")
       .col-lg-7
         .row.p-4.mb-3
-          .col-lg-2
+          .col-lg-2.d-none.d-lg-block
             img.tema1-apertura__icono.mb-4(src="@/assets/curso/temas/t6/img2.svg" alt="")
           p.mb-0 La información pública centra su enfoque en permitir que las personas puedan conocer decisiones, trámites, servicios programas, requisitos, derechos, deberes y hasta mecanismos de participación ciudadana. Pero es fundamental que, para el cumplimiento de su función, vaya más allá de estar publicada en una página web, carteleras, documento o algún canal institucional, la información debe ser clara, comprensible, accesible, oportuna y útil para quienes la necesiten. La información pública es una herramienta que permite el acercamiento y la conexión entre la ciudadanía y las entidades gubernamentales con el uso de esta información las personas pueden tomar decisiones, realizar solicitudes, participar en distintos procesos, ejercer control social o acceder a servicios.
     p.mb-0 De acuerdo con esto la información pública, debe preguntarse: que información se entrega, como se presenta y para quien se comunica. Pasando a una visión centrada en el acceso de las personas a la información pública. Entendiendo esto, la información pública puede entenderse como toda la información que producen, administran o conservan las entidades del estado. Dicha información puede tener estrecha relación con la gestión institucional, los servicios que ofrece, tramites disponibles, decisiones administrativas, recursos entre otros; finalmente esta información debe verse también como un medio para garantizar la transparencia, orientar a la ciudadanía y hacer mucho más fácil el ejercicio de sus derechos.
@@ -23,8 +23,8 @@
     figure.mb-4
       img(src="@/assets/curso/temas/t6/img3.png" alt="")
     p.mb-4 Para responder a las necesidades de la ciudadanía y garantizar una comunicación efectiva, la información pública debe cumplir una serie de características que faciliten su acceso, comprensión y uso. Estas características orientan la forma en que las entidades producen, organizan y divulgan la información, contribuyendo a fortalecer la transparencia, el acceso a los servicios y el ejercicio de los derechos. A continuación, se presentan las principales características de la información pública:
-    .row.align-items-center.mb-4
-      .col-lg-8.mb-4.mb-lg-0
+    .row.align-items-center.justify-content-center.mb-4
+      .col-lg-8.mb-4.mb-lg-0.order-2.order-lg-1
         LineaTiempoD.color-acento-botones
           p.mb-0(numero="1" titulo="Disponibilidad") La información debe estar al alcance de la ciudadanía por los canales definidos.
           p.mb-0(numero="2" titulo="Claridad") El contenido debe presentarse con lenguaje claro y comprensible.
@@ -33,7 +33,7 @@
           p.mb-0(numero="5" titulo="Pertinencia") El contenido debe responder a una necesidad ciudadana.
           p.mb-0(numero="6" titulo="Accesibilidad") La información debe considerar canales, formatos y condiciones adecuados.
           p.mb-0(numero="7" titulo="Utilidad") La información debe permitir comprender, decidir, actuar o participar.
-      .col-lg-4
+      .col-lg-4.col-8.mb-4.mb-lg-0.order-1.order-lg-2 
         figure
           img(src="@/assets/curso/temas/t6/img4.png" alt="")
     p.mb-4 Estas características muestran que la información pública no se limita a estar publicada. Una información puede estar disponible sin ser clara, ser veraz sin llegar en el momento oportuno o estar completa sin resultar útil cuando no responde a las necesidades de la ciudadanía. Por ello, el acceso a la información pública requiere valorar no solo su contenido, sino también su función práctica y su capacidad para facilitar la comprensión y el ejercicio de los derechos. En este contexto, entre el Estado y la ciudadanía circulan distintos tipos de información pública, cada uno con un propósito específico y, en consecuencia, con necesidades particulares de comunicación.
@@ -125,8 +125,8 @@
     .titulo-pastilla.mt-4(data-aos="fade-down")
       img(src="@/assets/curso/icon.svg" alt="")
       span Estrategias de inclusión en el lenguaje
-    .row.align-items-center.mb-4
-      .col-lg-5.mb-4.mb-lg-0
+    .row.align-items-center.justify-content-center.mb-4
+      .col-lg-5.col-8.mb-4.mb-lg-0
         figure
           img(src="@/assets/curso/temas/t6/img8.png" alt="")
       .col-lg-7

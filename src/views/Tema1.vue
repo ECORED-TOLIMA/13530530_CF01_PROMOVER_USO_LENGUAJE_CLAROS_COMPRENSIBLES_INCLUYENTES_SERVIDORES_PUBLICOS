@@ -15,7 +15,7 @@
           )
       .col-lg-7
         .row.p-4.mb-3
-          .col-lg-2
+          .col-lg-2.d-none.d-lg-block
             img.tema1-apertura__icono.mb-4( src="@/assets/curso/temas/t1/img2.svg" alt="" )
           p.mb-0 La comunicación es una acción cotidiana que permite compartir información, expresar ideas, orientar decisiones y fortalecer las relaciones entre las personas y las instituciones. En el ámbito de lo público, esta acción adquiere un papel fundamental, ya que conecta a las entidades del Estado con la ciudadanía y facilita el ejercicio de sus derechos. Cada vez que una institución publica un requisito, brinda información sobre un servicio, explica un trámite, responde una solicitud o convoca a la participación ciudadana, desarrolla un proceso de comunicación que puede facilitar o dificultar el acceso, la comprensión y el uso de la información pública.
 
@@ -68,7 +68,7 @@
           img(src="@/assets/curso/temas/t1/img6.png" alt="")
 
     .row.align-items-center.mb-4
-      .col-md-auto.text-center.mb-4.mb-md-0
+      .col-md-auto.text-center.mb-4.mb-md-0.d-none.d-lg-block
         img.tema1-definicion__icono(src="@/assets/curso/temas/t1/img7.svg" alt="")
       .col
         p.mb-0 La comunicación pública se define como el conjunto de procesos informativos y de diálogo que las entidades del Estado adelantan para interactuar de forma oficial con la sociedad. Su propósito principal no es comercial ni meramente persuasivo, sino la garantía del interés general, la transparencia en la gestión de lo público y la rendición de cuentas ante la ciudadanía.
@@ -177,8 +177,8 @@
 
     p.mb-4 Para comprender el papel de la comunicación ciudadana en la relación entre las instituciones y la ciudadanía, es necesario analizar tres aspectos fundamentales:
 
-    .row.align-items-center.mb-0
-      .col-lg-8.mb-4.mb-lg-0
+    .row.align-items-center.justify-content-center.mb-0
+      .col-lg-8.mb-4.mb-lg-0.order-2.order-lg-1
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
           .row(titulo="Objetivo")
             .col-12
@@ -189,7 +189,7 @@
           .row(titulo="Enfoque")
             .col-12
               p.mb-0 Debe ser claro, comprensible e incluyente. Esto implica reconocer que no todas las personas acceden a la información de la misma manera ni tienen las mismas condiciones para interpretarla. Por esta razón, comunicar desde el enfoque ciudadano exige pensar en el leguaje, el canal, el formato, el contexto y la utilidad de la información.
-      .col-lg-4
+      .col-lg-4.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         figure
           img(src="@/assets/curso/temas/t1/img14.png" alt="")
     Separador

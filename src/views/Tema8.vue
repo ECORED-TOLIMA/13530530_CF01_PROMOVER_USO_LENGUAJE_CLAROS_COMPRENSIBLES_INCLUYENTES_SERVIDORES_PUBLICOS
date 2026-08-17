@@ -7,8 +7,8 @@
         span 8
       h1 Metodologías en documentos elaborados y publicados
 
-    .row.align-items-center.mb-4
-      .col-lg-5.mb-4.mb-lg-0
+    .row.align-items-center.justify-content-center.mb-4
+      .col-lg-5.col-8.mb-4.mb-lg-0
         figure
           img(src="@/assets/curso/temas/t8/img1.png" alt="")
       .col-lg-7
@@ -17,7 +17,7 @@
           p.mb-0 Para solucionarlo, la #[strong Guía de lenguajes claros, comprensibles e incluyentes del SENA] propone evaluar a la comprensión del contenido desde la experiencia real de las personas. Estas metodologías parten de una regla simple: Si se desea saber si un documento es claro solo se observa cómo lo usa y lo entiende quienes necesitan utilizarlo.
 
     .row.align-items-center.mb-0
-      .col-md-auto.text-center.mb-4.mb-md-0
+      .col-md-auto.text-center.mb-4.mb-md-0.d-none.d-lg-block
         img.tema5-icono(src="@/assets/curso/temas/t8/img2.svg" alt="")
       .col
         p.mb-0 En este componente se desarrollan tres metodologías que facilitan este proceso; la entrevista estructurada, el semáforo de la comprensión y el laboratorio de simplicidad. Cada una de estas metodologías cumplen una función diferente, pero su objetivo en común es buscar el mismo resultado como, por ejemplo: identificar oportunidades de mejora para que la información sea clara, comprensible e incluyente. La #[strong Guía de lenguajes claros, comprensibles e incluyentes del SENA] sugiere priorizar los documentos que están dirigidos a la ciudadanía, relacionados con el acceso a derechos y los que son ampliamente consultados o utilizados de manera frecuente en los canales institucionales. También recomienda identificar quienes son las personas destinatarias del documento, ya que sus características y necesidades son muy importantes porque orientan todo el proceso de evaluación.
@@ -66,8 +66,8 @@
     #t_8_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 8.2 Entrevista estructurada
     p.mb-4 Esta es una metodología que facilita conocer el cómo otras personas comprender los documentos antes de realizar modificaciones; su finalidad es identificar las dificultades que aparecen durante la lectura y reconocer los aspectos que se pueden mejorar para la comprensión del mensaje. Igualmente, debe tener en cuenta esta serie de pasos:
-    .row.align-items-center.mb-4
-      .col-lg-4.mb-4.mb-lg-0
+    .row.align-items-center.justify-content-center.mb-4
+      .col-lg-4.col-8.mb-4.mb-lg-0
         figure
           img(src="@/assets/curso/temas/t8/img7.png" alt="")
       .col-lg-8
@@ -90,8 +90,8 @@
       img(src="@/assets/curso/temas/t8/img8.png" alt="")
     p.mb-4 El semáforo de la comprensión es una metodología que facilita identificar de manera rápida y visual los apartados de un documento que presentan diferentes niveles de comprensión. Su aplicación permite priorizar las mejoras antes de publicar o actualizar un documento institucional.
     p.mb-4 La Guía de lenguajes claros, comprensibles e incluyentes del SENA propone una ruta metodológica de seis pasos adaptada de la propuesta elaborada por la veeduría para traducir documentos a lenguaje claro:
-    .row.align-items-center.mb-4
-      .col-lg-8.mb-4.mb-lg-0
+    .row.align-items-center.justify-content-center.mb-4
+      .col-lg-8.mb-4.mb-lg-0.order-2.order-lg-1
         LineaTiempoD.color-acento-botones
           p.mb-0(numero="1" titulo="Prueba de lectura con el semáforo de la comprensión para traducción") Una vez elegido el documento, las personas responsables realizan la prueba de lectura utilizando el Semáforo de la comprensión.
           p.mb-0(numero="2" titulo="Simplificación del documento") El documento se revisa y modifica con lenguaje claro, comprensible e incluyente, verificando que la información sea relevante y se adapte a las personas destinatarias.
@@ -99,7 +99,7 @@
           p.mb-0(numero="4" titulo="Validación con personas expertas") Los documentos se comparten con personas expertas para verificar el cumplimiento de los requisitos.
           p.mb-0(numero="5" titulo="Revisión final") Se revisa el documento con la persona responsable para asegurar que sea comprensible y accesible.
           p.mb-0(numero="6" titulo="Formalización y publicación del documento") Una vez finalizado, se formaliza según la guía y se verifica su disponibilidad en un formato accesible.
-      .col-lg-4
+      .col-lg-4.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         figure
           img(src="@/assets/curso/temas/t8/img9.png" alt="")
     p.mb-4 Como parte de la prueba de lectura, el semáforo de la comprensión facilita identificar los apartados del documento que requieren ajustes según el nivel de comprensión alcanzado por la audiencia. En la siguiente figura se presenta el significado de cada color y su aplicación durante este proceso de revisión:
@@ -123,8 +123,8 @@
       .bloque-texto-g__img(role="img" :style="{'background-image':`url(${require_src('@/assets/curso/temas/t8/img11.png')})`}")
       .bloque-texto-g__texto.p-4
         p.mb-0 Es una metodología desarrollada por el Departamento Nacional de Planeación (DNP) que busca transformar documentos institucionales en textos más claros, comprensibles e incluyentes. Esta estrategia construye soluciones a partir de las observaciones realizadas durante la revisión y del trabajo colaborativo entre las entidades y las personas usuarias de la información.
-    .row.align-items-center.mb-4
-      .col-lg-5.mb-4.mb-lg-0
+    .row.align-items-center.justify-content-center.mb-4
+      .col-lg-5.col-8.mb-4.mb-lg-0
         figure
           img(src="@/assets/curso/temas/t8/img12.png" alt="")
       .col-lg-7
@@ -147,14 +147,14 @@
     #t_8_5.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 8.5 Consideraciones de escritura en lenguajes claros, comprensibles e incluyentes
     .row.align-items-center.mb-4
-      .col-md-auto.text-center.mb-4.mb-md-0
+      .col-md-auto.text-center.mb-4.mb-md-0.d-none.d-lg-block
         img.tema5-icono(src="@/assets/curso/temas/t8/img13.svg" alt="")
       .col
         p.mb-0 Antes de construir o revisar un documento, es importante recordar que escribir con claridad implica pensar primero en las personas que harán uso de la información. La #[strong Guía de lenguajes claros, comprensibles e incluyentes del SENA] recomienda identificar primero quién recibirá el mensaje, que necesita conocer y cuál es el resultado que se espera después de la lectura.
     p.mb-4 Durante la elaboración de los documentos es preciso tener en cuenta las siguientes consideraciones:
     .BG04.px-5.p-5.mb-0
-      .row.align-items-center
-        .col-lg-3.mb-4.mb-lg-0
+      .row.align-items-center.justify-content-center
+        .col-lg-3.col-8.mb-4.mb-lg-0
           figure
             img(src="@/assets/curso/temas/t8/img14.png" alt="")
         .col-lg-9
@@ -206,21 +206,21 @@
     figure.mb-4
       img(src="@/assets/curso/temas/t8/img15.png" alt="")
     p.mb-4 Esta guía en su segunda versión se constituye como un referente metodológico para el conocimiento, elaboración y revisión de documentos y comunicaciones dirigidas a la ciudadanía. Si bien la guía es desarrollada por el Servicio Nacional de Aprendizaje SENA, sirve como sustento para todos los aprendices y servidores públicos para la ejecución de temas relacionados con el uso y aplicaciones de los lenguajes claros, comprensibles e incluyentes.
-    .row.align-items-center.mb-4
-      .col-lg-7.mb-4.mb-lg-0
+    .row.align-items-center.justify-content-center.mb-4
+      .col-lg-7.mb-4.mb-lg-0.order-2.order-lg-1
         .cajon.color-primario.p-4.mb-4
           p.mb-0 Se recomienda consultar la guía, adaptarla a los procesos de cada entidad pública del país, pues su consulta y utilización permite fortalecer las capacidades institucionales para identificar barreras de comprensión, organizar mejor la información, seleccionar el lenguaje y construir mensajes que faciliten el acceso a trámites, servicios, derechos y mecanismos de participación.
         .row.align-items-center
-          .col-md-auto.text-center.mb-4.mb-md-0
+          .col-md-auto.text-center.mb-4.mb-md-0.d-none.d-lg-block
             img.tema5-icono(src="@/assets/curso/temas/t8/img16.svg" alt="")
           .col
             p.mb-0 Finalmente, se espera que los aprendices incorporen estas orientaciones en sus prácticas cotidianas, comprendiendo que la comunicación clara y respetuosa facilita el acceso y reconocimiento de todas las personas y permite encontrar, comprender y utilizar la información para ejercer sus derechos.
-      .col-lg-5
+      .col-lg-5.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         figure
           img(src="@/assets/curso/temas/t8/img17.png" alt="")
     
-    .row.align-items-center.mb-0
-      .col-lg-4.mb-4.mb-lg-0
+    .row.align-items-center.justify-content-center.mb-0
+      .col-lg-4.col-8.mb-4.mb-lg-0
         figure
           img(src="@/assets/curso/temas/t8/img18.png" alt="")
       .col-lg-8
