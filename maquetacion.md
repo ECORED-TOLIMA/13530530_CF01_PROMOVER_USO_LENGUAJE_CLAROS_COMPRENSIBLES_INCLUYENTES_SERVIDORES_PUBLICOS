@@ -1930,3 +1930,72 @@ Cambios realizados:
 Criterio aprendido:
 
 > En una lista institucional `.lista-ol--cuadro`, la viñeta numerada no debe simularse con texto en negrita. Debe construirse explícitamente dentro de cada `li` mediante `.lista-ol--cuadro__vineta > span`.
+
+## Validación de contenido: documento DI frente a maquetación HTML
+
+Documento fuente: `fuentes/13530530_CF01_DI.docx`.
+
+Alcance de esta revisión: contenido textual únicamente. No se evalúan diseño, componentes, imágenes, estilos, distribución ni textos alternativos.
+
+### Parte 1. Introducción
+
+Archivo comparado: `src/views/Introduccion.vue`.
+
+#### Diferencias encontradas
+
+1. **Omisión en el primer párrafo**
+
+   - Word: “Estas situaciones generan brechas comunicativas **que surgen por** el uso de tecnicismos…”
+   - HTML: “Estas situaciones generan brechas comunicativas **por** el uso de tecnicismos…”
+   - Diferencia: en la maquetación faltan las palabras `que surgen`.
+
+2. **Problema de codificación de caracteres en la vista**
+
+   - En `Introduccion.vue` los caracteres con tilde y la letra `ñ` aparecen almacenados como secuencias alteradas, por ejemplo: `IntroducciÃ³n`, `pÃºblicas`, `ciudadanÃ­a`, `comprensiÃ³n` y `diseÃ±o`.
+   - En el Word estos caracteres aparecen correctamente.
+   - Esta diferencia afecta transversalmente el contenido visible de la Introducción y debe corregirse garantizando que el archivo quede guardado en UTF-8.
+
+#### Contenido coincidente
+
+- El segundo párrafo, que inicia con “En este componente se abordan…”, coincide en redacción con el Word, aparte del problema de codificación indicado.
+- El tercer párrafo, que inicia con “El desarrollo de este componente…”, coincide en redacción con el Word, aparte del problema de codificación indicado.
+- La frase de invitación al video coincide con el Word, aparte del problema de codificación indicado.
+- Las apariciones repetidas del nombre `62360022_CF01_Guion_Video_Introduccion` en el Word corresponden a la referencia del recurso audiovisual y no a párrafos narrativos que deban mostrarse como texto en la vista.
+
+#### Estado
+
+La Introducción queda **pendiente de corrección de contenido** por una omisión de dos palabras y por la codificación incorrecta de caracteres. En esta etapa no se modificó `Introduccion.vue`; únicamente se documentaron las diferencias.
+
+### Revisión 2 de Tema 8: cuatro momentos con `PasosB`
+
+El bloque de los cuatro momentos de la sección 8.1 conservaba información e imágenes correctas, pero utilizaba `SlyderA`.
+
+Cambios realizados:
+
+- `SlyderA` se reemplazó por el componente institucional `PasosB.color-acento-botones`.
+- El componente quedó dentro de `.tarjeta.tarjeta--gris.p-4.mb-4`.
+- Cada etapa se definió como hija directa de `PasosB` mediante `.row.justify-content-center.align-items-center(titulo="…")`.
+- Se conservaron Organizar, Escribir, Revisar y Validar, junto con sus textos e imágenes.
+- En móvil la imagen aparece primero mediante las clases `order-1.order-lg-2`, mientras el texto utiliza `order-2.order-lg-1`.
+- Las imágenes se limitan a `.col-10` en pantallas pequeñas.
+- Los títulos internos utilizan `h5.mb-4` y los párrafos finales `p.mb-0`.
+- Las imágenes mantienen `alt=""` por no corresponder a figuras numeradas.
+- Se eliminó la muestra de la Ley 1346 de 2009 después de aplicar su estructura.
+
+Estructura aprobada:
+
+```pug
+.tarjeta.tarjeta--gris.p-4.mb-4
+  PasosB.color-acento-botones
+    .row.justify-content-center.align-items-center(titulo="Etapa")
+      .col-lg-6.mb-4.mb-lg-0.order-2.order-lg-1
+        h5.mb-4 Etapa
+        p.mb-0 Contenido.
+      .col-lg-6.col-10.mb-4.mb-lg-0.order-1.order-lg-2
+        figure
+          img(src="@/assets/curso/temas/tX/imagen.png" alt="")
+```
+
+Criterio aprendido:
+
+> En `PasosB`, cada etapa debe ser hija directa del componente y declarar el atributo `titulo`. El componente controla la navegación y numeración; la estructura interior organiza el texto y la imagen de cada paso.

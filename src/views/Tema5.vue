@@ -42,7 +42,7 @@
         p.mb-5 Se refiere al conjunto de condiciones, características, necesidades y realidades que influyen en la manera como las personas se relacionan con la información pública. De esta forma, aspectos como el lugar donde viven, el nivel de acceso a canales digitales o presenciales, el conocimiento previo sobre trámites, la familiaridad con el lenguaje institucional, la edad, la ocupación, las condiciones sociales y las formas de participación en la vida pública.
       .col-md.tarjeta.tema5-contexto--comunicativo.p-5
         .row.justify-content-center.mb-4
-          .cocol-lg-3
+          .col-lg-3
             figure
               img(src="@/assets/curso/temas/t5/img5.svg" alt="")
         h5.text-center Contexto comunicativo
@@ -82,7 +82,7 @@
           .row.align-items-center
             .col-lg-6.mb-4.mb-lg-0
               h5 Condiciones culturales
-              p.mb-0 También influyen en la comunicación. Las personas interpretan la información desde su forma de vida, costumbres, lenguajes y experiencias comunicativas. Por este motivo, una estrategia comunicativa debe evitar suponer que todas las personas comprenden de la misma forma. Comunicar con pertinencia cultural implica usar ejemplos cercanos, evitar expresiones que generen exclusión y reconocer que la información pública debe ser cercana a la realidad de las personas que la reciben.
+              p.mb-0 También influyen en la comunicación. Las personas interpretan la información desde su forma de vida, costumbres, lenguajes y experiencias comunicativas. Es por este motivo que una estrategia comunicativa debe de evitar suponer que todas las personas comprenden de la misma forma. Es así, que comunicar con pertinencia cultural implica usar ejemplos cercanos, evitar expresiones que generen exclusión y reconocer que la información pública debe ser cercana con la realidad de las personas que la reciben.
             .col-lg-6
               figure
                 img(src="@/assets/curso/temas/t5/img8.png" alt="")
@@ -91,7 +91,7 @@
       .col-md-auto.text-center.mb-4.mb-lg-0.d-none.d-lg-block
         img.tema5-icono(src="@/assets/curso/temas/t5/img9.svg" alt="")
       .col
-        p.mb-0 En el contexto comunicativo un elemento importante es el #[strong canal] por donde se emite la información. La entidad puede contar con recursos como página web, redes sociales, correo electrónico, atención presencial, línea telefónica y piezas impresas; sin embargo, el canal más adecuado no siempre es el más moderno, sino el que permite que la información sea comprendida por las personas destinatarias.
+        p.mb-0 En el contexto comunicativo un elemento importante es el #[strong canal] por donde se emite la información. La entidad puede contar con recursos como página #[i web], redes sociales, correo electrónico, atención presencial, línea telefónica y piezas impresas; sin embargo, el canal más adecuado no siempre es el más moderno, sino el que permite que la información sea comprendida por las personas destinatarias.
 </template>
 
 <script>

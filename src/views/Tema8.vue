@@ -26,35 +26,35 @@
     #t_8_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 8.1 Metodología en documentos nuevos
     p.mb-4 La construcción de un documento nuevo comienza mucho antes de redactar el primer párrafo. Antes de escribir, es necesario identificar a quién va dirigida la información, qué necesita conocer la ciudadanía, cuál es el propósito del documento y qué acción se espera que realicen las personas después de leerlo. Cuando estas preguntas se responden desde el inicio, resulta más sencillo elaborar mensajes claros, pertinentes y útiles para la ciudadanía. Para lograrlo, es importante conocer los cuatro momentos que orientan la elaboración de documentos:
-    .BG01.px-5.p-5.mb-4
-      .bgwhite.p-4
-        SlyderA(tipo="b")
-          .row.align-items-center
-            .col-lg-6.mb-4.mb-lg-0
-              h5 1. Organizar
+    .BG01.px-4.px-md-5.py-5.mb-5
+      .tarjeta.bgwhite.p-4.p-lg-5
+        PasosB.color-acento-botones
+          .row.justify-content-center.align-items-center(titulo="Organizar")
+            .col-lg-6.mb-4.mb-lg-0.order-2.order-lg-1
+              h5.mb-4 Organizar
               p.mb-0 Inicialmente, se define el propósito del documento, se identifican las posibles audiencias, se selecciona la información necesaria y se establece el orden de las ideas para facilitar la comprensión del tema.
-            .col-lg-6
+            .col-lg-6.col-10.mb-4.mb-lg-0.order-1.order-lg-2
               figure
                 img(src="@/assets/curso/temas/t8/img3.png" alt="")
-          .row.align-items-center
-            .col-lg-6.mb-4.mb-lg-0
-              h5 2. Escribir
-              p.mb-0 Una vez organizada la información, se inicia la redacción del documento. En esta etapa es fundamental utilizar un lenguaje común y cercano a la ciudadanía, construir oraciones breves y claras, y organizar las ideas de manera lógica. Asimismo, se recomienda evitar redundancias, emplear la voz activa y reducir el uso de tecnicismos.
-            .col-lg-6
+          .row.justify-content-center.align-items-center(titulo="Escribir")
+            .col-lg-6.mb-4.mb-lg-0.order-2.order-lg-1
+              h5.mb-4 Escribir
+              p.mb-0 Una vez organizada la información, se inicia la redacción del documento. En esta etapa es fundamental utilizar un lenguaje común y cercano a la ciudadanía, construir oraciones breves y claras, y organizar las ideas de manera lógica para facilitar la comprensión del mensaje. Asimismo, se recomienda evitar redundancias, emplear la voz activa y reducir al máximo el uso de tecnicismos.
+            .col-lg-6.col-10.mb-4.mb-lg-0.order-1.order-lg-2
               figure
                 img(src="@/assets/curso/temas/t8/img4.png" alt="")
-          .row.align-items-center
-            .col-lg-6.mb-4.mb-lg-0
-              h5 3. Revisar
-              p.mb-0 Este paso permite verificar que la información sea clara, que las ideas mantengan un hilo conductor y que las instrucciones puedan seguirse sin dificultad.
-            .col-lg-6
+          .row.justify-content-center.align-items-center(titulo="Revisar")
+            .col-lg-6.mb-4.mb-lg-0.order-2.order-lg-1
+              h5.mb-4 Revisar
+              p.mb-0 Este paso es fundamental, ya que permite leer nuevamente el documento para verificar que la información sea clara y que las ideas se comprendan con facilidad. También es necesario comprobar que el contenido mantenga un hilo conductor y que, cuando existan instrucciones, el paso a paso pueda seguirse sin dificultad.
+            .col-lg-6.col-10.mb-4.mb-lg-0.order-1.order-lg-2
               figure
                 img(src="@/assets/curso/temas/t8/img5.png" alt="")
-          .row.align-items-center
-            .col-lg-6.mb-4.mb-lg-0
-              h5 4. Validar
-              p.mb-0 Finalmente, se comparte el documento con otras personas y, cuando sea posible, con integrantes de la audiencia para verificar su comprensión e identificar oportunidades de mejora antes de publicarlo.
-            .col-lg-6
+          .row.justify-content-center.align-items-center(titulo="Validar")
+            .col-lg-6.mb-4.mb-lg-0.order-2.order-lg-1
+              h5.mb-4 Validar
+              p.mb-0 Finalmente, es importante compartir el documento con otras personas del entorno laboral y, cuando sea posible, con integrantes de la audiencia a la que va dirigido. Esto permite verificar que la información sea comprendida, identificar oportunidades de mejora y confirmar que el contenido cumple su propósito antes de su publicación o difusión.
+            .col-lg-6.col-10.mb-4.mb-lg-0.order-1.order-lg-2
               figure
                 img(src="@/assets/curso/temas/t8/img6.png" alt="")
     .row.justify-content-center.mb-0
@@ -73,11 +73,11 @@
       .col-lg-8
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
           .row(titulo="1. Selección e inicio de la entrevista")
-            p.mb-0 Se selecciona el documento institucional y se entrega a una persona que represente a la población destinataria para que lo lea. Al finalizar, se formulan preguntas para identificar si la información fue comprendida, las principales dificultades y las dudas surgidas.
+            p.mb-0 Se selecciona el documento institucional y se entrega a una persona que represente a la población destinataria para que lo lea. Una vez finalizada la lectura, se formulan preguntas que permitan identificar si la información fue comprendida, cuáles fueron las principales dificultades y qué dudas surgieron durante su lectura.
           .row(titulo="2. Durante la entrevista")
-            p.mb-0 Se recomienda formular preguntas abiertas, escuchar atentamente y registrar las observaciones. El propósito es comprender cómo la persona interpreta la información y qué aspectos requieren ajustes.
+            p.mb-0 Se recomienda formular preguntas abiertas, escuchar atentamente las respuestas y registrar las observaciones realizadas. El propósito de esta etapa es comprender cómo la persona interpreta la información, qué aspectos le resultan claros y cuáles requieren ajustes.
           .row(titulo="3. Al finalizar la entrevista")
-            p.mb-0 Se analiza la información obtenida para identificar palabras poco conocidas, instrucciones incompletas, exceso de información, ideas desordenadas o expresiones poco adecuadas, y se realizan los ajustes antes de divulgar el documento.
+            p.mb-0 Se analiza la información obtenida para identificar los aspectos que requieren mejora, como el uso de palabras poco conocidas, instrucciones incompletas, exceso de información, ideas desordenadas o expresiones poco adecuadas para la audiencia. A partir de este análisis, se realizan los ajustes necesarios antes de divulgar el documento.
     .row.justify-content-center.mb-0
       .col-lg-10
         .cajon.color-primario.p-4
@@ -93,12 +93,12 @@
     .row.align-items-center.justify-content-center.mb-4
       .col-lg-8.mb-4.mb-lg-0.order-2.order-lg-1
         LineaTiempoD.color-acento-botones
-          p.mb-0(numero="1" titulo="Prueba de lectura con el semáforo de la comprensión para traducción") Una vez elegido el documento, las personas responsables realizan la prueba de lectura utilizando el Semáforo de la comprensión.
-          p.mb-0(numero="2" titulo="Simplificación del documento") El documento se revisa y modifica con lenguaje claro, comprensible e incluyente, verificando que la información sea relevante y se adapte a las personas destinatarias.
-          p.mb-0(numero="3" titulo="Ajustes en el diseño del documento") Se revisa el diseño y se incorporan, cuando se requiera, cuadros, viñetas, imágenes o gráficos que faciliten la comprensión.
-          p.mb-0(numero="4" titulo="Validación con personas expertas") Los documentos se comparten con personas expertas para verificar el cumplimiento de los requisitos.
-          p.mb-0(numero="5" titulo="Revisión final") Se revisa el documento con la persona responsable para asegurar que sea comprensible y accesible.
-          p.mb-0(numero="6" titulo="Formalización y publicación del documento") Una vez finalizado, se formaliza según la guía y se verifica su disponibilidad en un formato accesible.
+          p.mb-0(numero="1" titulo="Prueba de lectura con el semáforo de la comprensión para traducción") Una vez que se elige el documento que se va a traducir las personas responsables que realizan la prueba de lectura deben de utilizar el Semáforo de la comprensión el cual se grafica de la siguiente manera:
+          p.mb-0(numero="2" titulo="Simplificación del documento") El documento se debe revisar y modificar de acuerdo con las recomendaciones que se realizan, es importante que el contenido se redacte en un lenguaje claro, comprensible e incluyente de acuerdo con los lineamientos mencionados en #[b La Guía de lenguajes claros, comprensibles e incluyentes del SENA]. Es importante verificar que la información sea relevante y que se adapte a las necesidades de las personas a quien va dirigida.
+          p.mb-0(numero="3" titulo="Ajustes en el diseño del documento") Es importante revisar si el documento requiere ajustes de mejora en su diseño con el fin que facilite la comprensión de la información. Para que la lectura del contenido sea más fácil de entender se puede hacer uso de recursos visuales como cuadros, viñetas, imágenes o gráficos, el objetivo es que las personas puedan comprender el documento con facilidad.
+          p.mb-0(numero="4" titulo="Validación con personas expertas") Los documentos organizados deben de ser compartidos con personas expertas en el tema, con el fin de verificar que sí cumplen con los requisitos de un lenguaje claro, comprensible e incluyente.
+          p.mb-0(numero="5" titulo="Revisión final") Es muy importante revisar el documento final con la persona responsable y asegurar que el contenido cumpla con las condiciones y sea comprensible y accesible para quienes va dirigido.
+          p.mb-0(numero="6" titulo="Formalización y publicación del documento") Cuando el documento esté finalizado se debe seguir con un proceso de formalización de acuerdo como lo menciona #[b La Guía de lenguajes claros, comprensibles e incluyentes del SENA] y verificar que esté disponible en un formato accesible.
       .col-lg-4.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         figure
           img(src="@/assets/curso/temas/t8/img9.png" alt="")
@@ -122,7 +122,7 @@
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-4
       .bloque-texto-g__img(role="img" :style="{'background-image':`url(${require_src('@/assets/curso/temas/t8/img11.png')})`}")
       .bloque-texto-g__texto.p-4
-        p.mb-0 Es una metodología desarrollada por el Departamento Nacional de Planeación (DNP) que busca transformar documentos institucionales en textos más claros, comprensibles e incluyentes. Esta estrategia construye soluciones a partir de las observaciones realizadas durante la revisión y del trabajo colaborativo entre las entidades y las personas usuarias de la información.
+        p.mb-0 Es una metodología desarrollada por el Departamento Nacional de Planeación (DNP) que busca transformar documentos institucionales en textos más claros, comprensibles e incluyentes. A diferencia de las metodologías anteriores, esta estrategia no se centra en identificar dificultades, sino en construir soluciones a partir de las observaciones realizadas durante la revisión. Se trata de un trabajo colaborativo entre las entidades públicas y las personas que serán usuarias de la información, con el propósito de mejorar la comprensión de los documentos y fortalecer la comunicación con la ciudadanía.
     .row.align-items-center.justify-content-center.mb-4
       .col-lg-5.col-8.mb-4.mb-lg-0
         figure
@@ -209,12 +209,12 @@
     .row.align-items-center.justify-content-center.mb-4
       .col-lg-7.mb-4.mb-lg-0.order-2.order-lg-1
         .cajon.color-primario.p-4.mb-4
-          p.mb-0 Se recomienda consultar la guía, adaptarla a los procesos de cada entidad pública del país, pues su consulta y utilización permite fortalecer las capacidades institucionales para identificar barreras de comprensión, organizar mejor la información, seleccionar el lenguaje y construir mensajes que faciliten el acceso a trámites, servicios, derechos y mecanismos de participación.
+          p.mb-0 Se recomienda consultar la guía, adaptarla a los procesos de cada entidad pública del país, pues su consulta y utilización permite fortalecer las capacidades institucionales para identificar barreras de comprensión, poder organizar mejor la información, seleccionar el lenguaje y conceptos apropiados y construir mensajes que faciliten el acceso a los trámites, servicios, derechos y mecanismos de participación a todos los ciudadanos.
         .row.align-items-center
           .col-md-auto.text-center.mb-4.mb-md-0.d-none.d-lg-block
             img.tema5-icono(src="@/assets/curso/temas/t8/img16.svg" alt="")
           .col
-            p.mb-0 Finalmente, se espera que los aprendices incorporen estas orientaciones en sus prácticas cotidianas, comprendiendo que la comunicación clara y respetuosa facilita el acceso y reconocimiento de todas las personas y permite encontrar, comprender y utilizar la información para ejercer sus derechos.
+            p.mb-0 Finalmente, se espera que los aprendices incorporen estas orientaciones en sus prácticas cotidianas, llegando a la comprensión de que la comunicación clara y respetuosa no depende únicamente de escribir correctamente, sino de facilitar el acceso y reconocimiento de todas las personas y que a su vez ellas puedan encontrar, comprender y utilizar la información para el ejercicio y garantía de sus derechos en relación con las entidades públicas del país.
       .col-lg-5.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         figure
           img(src="@/assets/curso/temas/t8/img17.png" alt="")
