@@ -225,8 +225,20 @@
           img(src="@/assets/curso/temas/t8/img18.png" alt="")
       .col-lg-8
         p.mb-4 Con el propósito de integrar los conceptos abordados hasta el momento, se presenta un pódcast que explica cómo construir comunidades digitales alrededor del patrimonio cultural:
-        figure
-          img(src="@/assets/curso/temas/t8/img19.png" alt="")
+        .bgpodcast.p-4
+          .row.justify-content-center.align-items-center
+            .col-lg-4.d-none.d-lg-block
+              img(src='@/assets/curso/temas/t8/img19.svg', alt='')
+            .col-lg-8
+              p.text-white.mb-0.p-4 Pódcast
+              .tarjeta.clr--pink.p-4.rounded-0.h-100
+                .tarjeta.bg-white.p-4
+                  TarjetaAudio.color-primario.mb-3(
+                  texto="Cuando comprender un mensaje también es un derecho"
+                  :audio="require_src('@/assets/curso/temas/audio/13530530_CF01_Guion_Podcast_Cuando comprender un mensaje también es un derecho.mp3')"
+              )
+                  .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+
 </template>
 
 <script>

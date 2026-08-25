@@ -185,7 +185,7 @@
               p.mb-0 Favorecer una relación más clara, cercana y efectiva en las instituciones y las personas. Para lograrlo, la información debe permitir que la ciudadanía comprenda, actúe, pregunte, participe o tome decisiones. Una comunicación ciudadana bien orientada no solo informa; también reduce distancias, fortalece la confianza y facilita el acceso.
           .row(titulo="Alcance")
             .col-12
-              p.mb-0 Incluye diferentes momentos del relacionamiento con el Estado. Está presente cuando una persona consulta información en una página web, lee un cartel institucional, recibe una respuesta escrita o participa en una reunión. En cada uno de estos momentos, la comunicación puede facilitar el proceso o convertirse en una barrera.
+              p.mb-0 Incluye diferentes momentos del relacionamiento con el Estado. Está presente cuando una persona consulta información en una página #[i web], lee un cartel institucional, recibe una respuesta escrita o participa en una reunión. En cada uno de estos momentos, la comunicación puede facilitar el proceso o convertirse en una barrera.
           .row(titulo="Enfoque")
             .col-12
               p.mb-0 Debe ser claro, comprensible e incluyente. Esto implica reconocer que no todas las personas acceden a la información de la misma manera ni tienen las mismas condiciones para interpretarla. Por esta razón, comunicar desde el enfoque ciudadano exige pensar en el leguaje, el canal, el formato, el contexto y la utilidad de la información.
