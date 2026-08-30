@@ -63,7 +63,7 @@
           .col-8
             img(src="@/assets/curso/temas/t3/img13.svg" alt="")
         h5.text-center Poder informativo
-        p.mb-5 La entidad decide qué información publica, cómo la presenta y por qué canal la entrega.
+        p.mb-5 La entidad decide qué información pública, cómo la presenta y por qué canal la entrega.
       .tarjeta.BGTARG.p-3.p-lg-5
         .row.justify-content-center.mb-3.mt-4
           .col-8

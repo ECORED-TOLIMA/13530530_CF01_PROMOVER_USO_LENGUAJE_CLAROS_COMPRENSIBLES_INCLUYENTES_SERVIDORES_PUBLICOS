@@ -17,7 +17,7 @@
         .row.p-4.mb-3
           .col-lg-2.d-none.d-lg-block
             img.tema1-apertura__icono.mb-4( src="@/assets/curso/temas/t1/img2.svg" alt="" )
-          p.mb-0 La comunicación es una acción cotidiana que permite compartir información, expresar ideas, orientar decisiones y fortalecer las relaciones entre las personas y las instituciones. En el ámbito de lo público, esta acción adquiere un papel fundamental, ya que conecta a las entidades del Estado con la ciudadanía y facilita el ejercicio de sus derechos. Cada vez que una institución publica un requisito, brinda información sobre un servicio, explica un trámite, responde una solicitud o convoca a la participación ciudadana, desarrolla un proceso de comunicación que puede facilitar o dificultar el acceso, la comprensión y el uso de la información pública.
+          p.mb-0 La comunicación es una acción cotidiana que permite compartir información, expresar ideas, orientar decisiones y fortalecer las relaciones entre las personas y las instituciones. En el ámbito de lo público, esta acción adquiere un papel fundamental, ya que conecta a las entidades del Estado con la ciudadanía y facilita el ejercicio de sus derechos. Cada vez que una institución pública un requisito, brinda información sobre un servicio, explica un trámite, responde una solicitud o convoca a la participación ciudadana, desarrolla un proceso de comunicación que puede facilitar o dificultar el acceso, la comprensión y el uso de la información pública.
 
     p.mb-4 En esta relación no basta con que la información exista o esté publicada. Para que la comunicación cumpla su función, la ciudadanía necesita comprender qué se informa, por qué es importante, qué acciones puede realizar, qué derechos están involucrados y cuáles son los canales disponibles para interactuar con la entidad. Por esta razón, la comunicación pública y ciudadana debe pensarse como un puente:
 
@@ -124,7 +124,7 @@
             td Información que la ciudadanía necesita comprender para acceder a servicios, presentar solicitudes, participar en espacios públicos, resolver inquietudes o ejercer derechos.
           tr
             td Ejemplo
-            td Una entidad publica los requisitos para acceder a un subsidio, informa fechas de inscripción y explica los canales de atención disponibles.
+            td Una entidad pública los requisitos para acceder a un subsidio, informa fechas de inscripción y explica los canales de atención disponibles.
             td Una persona comprende los requisitos del subsidio, identifica si puede postularse, sabe qué documentos presentar y usa el canal indicado para realizar el trámite.
           tr
             td Riesgo si no se aplica adecuadamente
