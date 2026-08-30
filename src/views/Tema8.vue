@@ -12,15 +12,15 @@
         figure
           img(src="@/assets/curso/temas/t8/img1.png" alt="")
       .col-lg-7
-        p Publicar un documento institucional es solo el primer paso, su trabajo no termina solo en su divulgación. Es muy importante revisarlo y garantizar que la información sea fácil de comprender por las personas a quienes va dirigido. Un documento puede contener información correcta desde el punto de vista normativo y técnico, pero si presenta exceso de información, tecnicismos o instrucciones confusas puede presentar dificultades para ser entendido y termina alejando a las personas de la información.
+        p Publicar un documento institucional es solo el primer paso; su trabajo no termina solo en su divulgación. Es muy importante revisarlo y garantizar que la información sea fácil de comprender por las personas a quienes va dirigida. Un documento puede contener información correcta desde el punto de vista normativo y técnico, pero si presenta exceso de información, tecnicismos o instrucciones confusas, puede presentar dificultades para ser entendido y termina alejando a las personas de la información.
         .cajon.color-secundario.p-4
-          p.mb-0 Para solucionarlo, la #[strong Guía de lenguajes claros, comprensibles e incluyentes del SENA] propone evaluar a la comprensión del contenido desde la experiencia real de las personas. Estas metodologías parten de una regla simple: Si se desea saber si un documento es claro solo se observa cómo lo usa y lo entiende quienes necesitan utilizarlo.
+          p.mb-0 Para solucionarlo, la #[strong Guía de lenguajes claros, comprensibles e incluyentes del SENA] propone evaluar la comprensión del contenido desde la experiencia real de las personas. Estas metodologías parten de una regla simple: Si se desea saber si un documento es claro solo se observa cómo lo usa, y lo entienden quienes necesitan utilizarlo.
 
     .row.align-items-center.mb-0
       .col-md-auto.text-center.mb-4.mb-md-0.d-none.d-lg-block
         img.tema5-icono(src="@/assets/curso/temas/t8/img2.svg" alt="")
       .col
-        p.mb-0 En este componente se desarrollan tres metodologías que facilitan este proceso; la entrevista estructurada, el semáforo de la comprensión y el laboratorio de simplicidad. Cada una de estas metodologías cumplen una función diferente, pero su objetivo en común es buscar el mismo resultado como, por ejemplo: identificar oportunidades de mejora para que la información sea clara, comprensible e incluyente. La #[strong Guía de lenguajes claros, comprensibles e incluyentes del SENA] sugiere priorizar los documentos que están dirigidos a la ciudadanía, relacionados con el acceso a derechos y los que son ampliamente consultados o utilizados de manera frecuente en los canales institucionales. También recomienda identificar quienes son las personas destinatarias del documento, ya que sus características y necesidades son muy importantes porque orientan todo el proceso de evaluación.
+        p.mb-0 En este componente se desarrollan tres metodologías que facilitan este proceso: la entrevista estructurada, el semáforo de la comprensión y el laboratorio de simplicidad. Cada una de estas metodologías cumple una función diferente, pero su objetivo en común es buscar el mismo resultado como, por ejemplo: identificar oportunidades de mejora para que la información sea clara, comprensible e incluyente. La #[strong Guía de lenguajes claros, comprensibles e incluyentes del SENA] sugiere priorizar los documentos que están dirigidos a la ciudadanía, relacionados con el acceso a derechos y los que son ampliamente consultados o utilizados de manera frecuente en los canales institucionales. También recomienda identificar quiénes son las personas destinatarias del documento, ya que sus características y necesidades son muy importantes porque orientan todo el proceso de evaluación.
 
     Separador
     #t_8_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
@@ -60,12 +60,12 @@
     .row.justify-content-center.mb-0
       .col-lg-10
         .cajon.color-primario.p-4
-          p.mb-0 Aprendices, este proceso ayuda a comprender que no consiste únicamente en cambiar palabras, el proceso implica organizar la información, pensar a quien va dirigida y verificar que le documento cumpla todos los criterios antes de ser publicado.
+          p.mb-0 Aprendices, este proceso ayuda a comprender que no consiste únicamente en cambiar palabras; el proceso implica organizar la información, pensar a quién va dirigida y verificar que el documento cumpla todos los criterios antes de ser publicado.
 
     Separador
     #t_8_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 8.2 Entrevista estructurada
-    p.mb-4 Esta es una metodología que facilita conocer el cómo otras personas comprender los documentos antes de realizar modificaciones; su finalidad es identificar las dificultades que aparecen durante la lectura y reconocer los aspectos que se pueden mejorar para la comprensión del mensaje. Igualmente, debe tener en cuenta esta serie de pasos:
+    p.mb-4 Esta es una metodología que facilita conocer cómo otras personas comprenden los documentos antes de realizar modificaciones; su finalidad es identificar las dificultades que aparecen durante la lectura y reconocer los aspectos que se pueden mejorar para la comprensión del mensaje. Igualmente, debe tener en cuenta esta serie de pasos:
     .row.align-items-center.justify-content-center.mb-4
       .col-lg-4.col-8.mb-4.mb-lg-0
         figure
@@ -93,10 +93,10 @@
     .row.align-items-center.justify-content-center.mb-4
       .col-lg-8.mb-4.mb-lg-0.order-2.order-lg-1
         LineaTiempoD.color-acento-botones
-          p.mb-0(numero="1" titulo="Prueba de lectura con el semáforo de la comprensión para traducción") Una vez que se elige el documento que se va a traducir las personas responsables que realizan la prueba de lectura deben de utilizar el Semáforo de la comprensión el cual se grafica de la siguiente manera:
-          p.mb-0(numero="2" titulo="Simplificación del documento") El documento se debe revisar y modificar de acuerdo con las recomendaciones que se realizan, es importante que el contenido se redacte en un lenguaje claro, comprensible e incluyente de acuerdo con los lineamientos mencionados en #[b La Guía de lenguajes claros, comprensibles e incluyentes del SENA]. Es importante verificar que la información sea relevante y que se adapte a las necesidades de las personas a quien va dirigida.
-          p.mb-0(numero="3" titulo="Ajustes en el diseño del documento") Es importante revisar si el documento requiere ajustes de mejora en su diseño con el fin que facilite la comprensión de la información. Para que la lectura del contenido sea más fácil de entender se puede hacer uso de recursos visuales como cuadros, viñetas, imágenes o gráficos, el objetivo es que las personas puedan comprender el documento con facilidad.
-          p.mb-0(numero="4" titulo="Validación con personas expertas") Los documentos organizados deben de ser compartidos con personas expertas en el tema, con el fin de verificar que sí cumplen con los requisitos de un lenguaje claro, comprensible e incluyente.
+          p.mb-0(numero="1" titulo="Prueba de lectura con el semáforo de la comprensión para traducción") Una vez que se elige el documento que se va a traducir, las personas responsables que realizan la prueba de lectura deben utilizar el semáforo de la comprensión, el cual se grafica de la siguiente manera:
+          p.mb-0(numero="2" titulo="Simplificación del documento") El documento se debe revisar y modificar de acuerdo con las recomendaciones que se realizan; es importante que el contenido se redacte en un lenguaje claro, comprensible e incluyente de acuerdo con los lineamientos mencionados en #[b La Guía de lenguajes claros, comprensibles e incluyentes del SENA]. Es importante verificar que la información sea relevante y que se adapte a las necesidades de las personas a quienes va dirigida.
+          p.mb-0(numero="3" titulo="Ajustes en el diseño del documento") Es importante revisar si el documento requiere ajustes de mejora en su diseño con el fin de que facilite la comprensión de la información. Para que la lectura del contenido sea más fácil de entender, se puede hacer uso de recursos visuales como cuadros, viñetas, imágenes o gráficos; el objetivo es que las personas puedan comprender el documento con facilidad.
+          p.mb-0(numero="4" titulo="Validación con personas expertas") Los documentos organizados deben ser compartidos con personas expertas en el tema, con el fin de verificar que sí cumplen con los requisitos de un lenguaje claro, comprensible e incluyente.
           p.mb-0(numero="5" titulo="Revisión final") Es muy importante revisar el documento final con la persona responsable y asegurar que el contenido cumpla con las condiciones y sea comprensible y accesible para quienes va dirigido.
           p.mb-0(numero="6" titulo="Formalización y publicación del documento") Cuando el documento esté finalizado se debe seguir con un proceso de formalización de acuerdo como lo menciona #[b La Guía de lenguajes claros, comprensibles e incluyentes del SENA] y verificar que esté disponible en un formato accesible.
       .col-lg-4.col-8.mb-4.mb-lg-0.order-1.order-lg-2
@@ -150,7 +150,7 @@
       .col-md-auto.text-center.mb-4.mb-md-0.d-none.d-lg-block
         img.tema5-icono(src="@/assets/curso/temas/t8/img13.svg" alt="")
       .col
-        p.mb-0 Antes de construir o revisar un documento, es importante recordar que escribir con claridad implica pensar primero en las personas que harán uso de la información. La #[strong Guía de lenguajes claros, comprensibles e incluyentes del SENA] recomienda identificar primero quién recibirá el mensaje, que necesita conocer y cuál es el resultado que se espera después de la lectura.
+        p.mb-0 Antes de construir o revisar un documento, es importante recordar que escribir con claridad implica pensar primero en las personas que harán uso de la información. La #[strong Guía de lenguajes claros, comprensibles e incluyentes del SENA] recomienda identificar primero quién recibirá el mensaje, qué necesita conocer y cuál es el resultado que se espera después de la lectura.
     p.mb-4 Durante la elaboración de los documentos es preciso tener en cuenta las siguientes consideraciones:
     .BG04.px-5.p-5.mb-0
       .row.align-items-center.justify-content-center
@@ -205,7 +205,7 @@
       h2 8.6 Guía de lenguajes claros, comprensibles e incluyentes (SENA)
     figure.mb-4
       img(src="@/assets/curso/temas/t8/img15.png" alt="")
-    p.mb-4 Esta guía en su segunda versión se constituye como un referente metodológico para el conocimiento, elaboración y revisión de documentos y comunicaciones dirigidas a la ciudadanía. Si bien la guía es desarrollada por el Servicio Nacional de Aprendizaje SENA, sirve como sustento para todos los aprendices y servidores públicos para la ejecución de temas relacionados con el uso y aplicaciones de los lenguajes claros, comprensibles e incluyentes.
+    p.mb-4 Esta guía, en su segunda versión, se constituye como un referente metodológico para el conocimiento, elaboración y revisión de documentos y comunicaciones dirigidas a la ciudadanía. Si bien la guía es desarrollada por el Servicio Nacional de Aprendizaje SENA, sirve como sustento para todos los aprendices y servidores públicos para la ejecución de temas relacionados con el uso y aplicaciones de los lenguajes claros, comprensibles e incluyentes.
     .row.align-items-center.justify-content-center.mb-4
       .col-lg-7.mb-4.mb-lg-0.order-2.order-lg-1
         .cajon.color-primario.p-4.mb-4

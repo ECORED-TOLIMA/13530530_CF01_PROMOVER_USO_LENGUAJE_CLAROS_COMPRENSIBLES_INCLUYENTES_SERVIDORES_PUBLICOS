@@ -10,7 +10,7 @@
       .col-lg-7.mb-4.mb-lg-0.order-2.order-lg-1
         p La comunicación entre Estado y ciudadanía no ocurre en condiciones iguales. Las entidades públicas cuentan con información, normas, procedimientos, sistemas y documentos que pueden afectar la vida de las personas. La ciudadanía, por su parte, necesita comprender esa información para realizar trámites, acceder a servicios, participar o ejercer sus derechos. Esta diferencia genera una relación de poder, porque quien posee, organiza y comunica la información tiene una responsabilidad frente a quien la necesita.
         .cajon.color-secundario.p-4
-          p.mb-0 En la comunicación pública, las relaciones de poder se hacen visibles cuando la información se entrega de forma clara o confusa, cercana o distante, accesible o limitada. Un mensaje institucional puede abrir caminos para que la ciudadanía participe o también puede generar barreras si usa un lenguaje excesivamente técnico. Así que, reconocer las relaciones de poder permite comprender que la comunicación no es un acto neutral; la forma en la que se comunica puede facilitar o dificultar el acceso a la información.
+          p.mb-0 En la comunicación pública, las relaciones de poder se hacen visibles cuando la información se entrega de forma clara o confusa, cercana o distante, accesible o limitada. Un mensaje institucional puede abrir caminos para que la ciudadanía participe o también puede generar barreras si usa un lenguaje excesivamente técnico. Así que reconocer las relaciones de poder permite comprender que la comunicación no es un acto neutral; la forma en la que se comunica puede facilitar o dificultar el acceso a la información.
       .col-lg-5.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         figure
           img(src="@/assets/curso/temas/t3/img1.png" alt="")
@@ -36,7 +36,7 @@
     .titulo-pastilla.mt-4(data-aos="fade-down")
       img(src="@/assets/curso/icon.svg" alt="")
       span Tipos de relaciones de poder
-    p.mb-4 En el vínculo entre el Estado y ciudadanía pueden reconocerse varios tipos de relaciones de poder. No se presentan de manera aislada; muchas veces aparecen combinadas en una misma situación comunicativa. Al respecto se tienen los siguientes tipos de poderes:
+    p.mb-4 En el vínculo entre el Estado y la ciudadanía pueden reconocerse varios tipos de relaciones de poder. No se presentan de manera aislada; muchas veces aparecen combinadas en una misma situación comunicativa. Al respecto se tienen los siguientes tipos de poderes:
     
     SlyderF.mb-4(columnas="col-lg-6 col-xl-4")
       .tarjeta.BGTARG.p-3.p-lg-5
@@ -76,7 +76,7 @@
             img(src="@/assets/curso/temas/t3/img15.svg" alt="")
         h5.text-center Poder participativo
         p.mb-5 La entidad habilita o limita espacios para que la ciudadanía intervenga y haga seguimiento.
-    p.mb-4 Identificar estos tipos de relaciones permite comprender que la información pública no solo debe ser correcta desde el punto de vista institucional, también debe ser útil para la ciudadanía. Una comunicación basada únicamente en la autoridad de la entidad puede ser legalmente válida, pero poco comprensible. En cambio, una comunicación que explica, orienta y reconoce a las personas ayuda a generar un equilibrio en las relaciones de poder, porque facilita el acceso a la información.
+    p.mb-4 Identificar estos tipos de relaciones permite comprender que la información pública no solo debe ser correcta desde el punto de vista institucional sino también debe ser útil para la ciudadanía. Una comunicación basada únicamente en la autoridad de la entidad puede ser legalmente válida, pero poco comprensible. En cambio, una comunicación que explica, orienta y reconoce a las personas ayuda a generar un equilibrio en las relaciones de poder, porque facilita el acceso a la información.
     .titulo-pastilla.mt-4(data-aos="fade-down")
       img(src="@/assets/curso/icon.svg" alt="")
       span Ejercicio de poder en el relacionamiento Estado-ciudadanía

@@ -14,8 +14,8 @@
         .row.p-4.mb-3
           .col-lg-2.d-none.d-lg-block
             img.tema1-apertura__icono.mb-4(src="@/assets/curso/temas/t6/img2.svg" alt="")
-          p.mb-0 La información pública centra su enfoque en permitir que las personas puedan conocer decisiones, trámites, servicios programas, requisitos, derechos, deberes y hasta mecanismos de participación ciudadana. Pero es fundamental que, para el cumplimiento de su función, vaya más allá de estar publicada en una página #[i web], carteleras, documento o algún canal institucional, la información debe ser clara, comprensible, accesible, oportuna y útil para quienes la necesiten. La información pública es una herramienta que permite el acercamiento y la conexión entre la ciudadanía y las entidades gubernamentales con el uso de esta información las personas pueden tomar decisiones, realizar solicitudes, participar en distintos procesos, ejercer control social o acceder a servicios.
-    p.mb-0 De acuerdo con esto la información pública, debe preguntarse: que información se entrega, como se presenta y para quien se comunica. Pasando a una visión centrada en el acceso de las personas a la información pública. Entendiendo esto, la información pública puede entenderse como toda la información que producen, administran o conservan las entidades del estado. Dicha información puede tener estrecha relación con la gestión institucional, los servicios que ofrece, tramites disponibles, decisiones administrativas, recursos entre otros; finalmente esta información debe verse también como un medio para garantizar la transparencia, orientar a la ciudadanía y hacer mucho más fácil el ejercicio de sus derechos.
+          p.mb-0 La información pública centra su enfoque en permitir que las personas puedan conocer decisiones, trámites, servicios, programas, requisitos, derechos, deberes y hasta mecanismos de participación ciudadana. Pero es fundamental que, para el cumplimiento de su función, vaya más allá de estar publicada en una página web, carteleras, documento o algún canal institucional; la información debe ser clara, comprensible, accesible, oportuna y útil para quienes la necesiten. La información pública es una herramienta que permite el acercamiento y la conexión entre la ciudadanía y las entidades gubernamentales. Con el uso de esta información, las personas pueden tomar decisiones, realizar solicitudes, participar en distintos procesos, ejercer control social o acceder a servicios.
+    p.mb-0 De acuerdo con esto, la información pública debe preguntarse: qué información se entrega, cómo se presenta y para quién se comunica. Pasando a una visión centrada en el acceso de las personas a la información pública. Entendiendo esto, la información pública puede entenderse como toda la información que producen, administran o conservan las entidades del Estado. Dicha información puede tener estrecha relación con la gestión institucional, los servicios que ofrece, trámites disponibles, decisiones administrativas, recursos, entre otros; finalmente, esta información debe verse también como un medio para garantizar la transparencia, orientar a la ciudadanía y hacer mucho más fácil el ejercicio de sus derechos.
 
     Separador
     #t_6_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
@@ -44,7 +44,7 @@
     .row.justify-content-center.mb-4
       .col-lg-10
         .cajon.color-primario.p-4
-          p.mb-0 En el relacionamiento Estado y la ciudadanía circulan distintos tipos de información pública. Cada tipo cumple un propósito diferente y por lo tanto necesita una forma de comunicación adecuada.
+          p.mb-0 En el relacionamiento Estado y ciudadanía circulan distintos tipos de información pública. Cada tipo cumple un propósito diferente, por lo tanto, necesita una forma de comunicación adecuada.
     p.mb-4 Los diferentes tipos de información pública responden a necesidades específicas de comunicación entre las entidades y la ciudadanía. Identificarlos permite comprender el propósito de cada uno y seleccionar la forma más adecuada para presentarlos de manera clara, oportuna y útil. La siguiente tabla resume los principales tipos de información pública, su propósito y un ejemplo de aplicación:
     .titulo-sexto.color-acento-contenido.mb-3.mt-4
       h5 Tabla 3.
@@ -97,7 +97,7 @@
     .titulo-pastilla.mt-4(data-aos="fade-down")
       img(src="@/assets/curso/icon.svg" alt="")
       span Acceso a la información pública
-    p.mb-4 El acceso a la información pública significa que la ciudadanía puede conocer, consultar y usar la información que se encuentra en el poder de las entidades públicas. Este acceso no debe entenderse únicamente como la posibilidad de ingresar a un sitio #[i web] o descargar un documento, el acceso también implica que la información sea presentada en condiciones que faciliten su comprensión.
+    p.mb-4 El acceso a la información pública significa que la ciudadanía puede conocer, consultar y usar la información que se encuentra en el poder de las entidades públicas. Este acceso no debe entenderse únicamente como la posibilidad de ingresar a un sitio #[i web] o descargar un documento; el acceso también implica que la información sea presentada en condiciones que faciliten su comprensión.
     p.mb-4 Acceder a la información implica tres momentos; si alguno presenta falla, puede generarse una barrera de acceso:
     .row.justify-content-center.mb-4
       .col-md-6.col-xl-4.mb-4.mb-xl-0
@@ -131,7 +131,7 @@
           img(src="@/assets/curso/temas/t6/img8.png" alt="")
       .col-lg-7
         p Las estrategias de inclusión en el lenguaje permiten que la información pública sea más cercana, respetuosa y accesible para las personas. No se trata de usar ciertas palabras, sino de revisar si el mensaje reconoce la diversidad de las personas y evita expresiones que puedan discriminar, confundir o limitar la comprensión.
-        p Una estrategia de inclusión en el lenguaje debe de tener en cuenta al menos cuatro aspectos:
+        p Una estrategia de inclusión en el lenguaje debe tener en cuenta al menos cuatro aspectos:
         ul.lista-ul.mb-4
           li
             i.fas.fa-comment-dots
@@ -151,11 +151,11 @@
     .titulo-pastilla.mt-4(data-aos="fade-down")
       img(src="@/assets/curso/icon.svg" alt="")
       span Normatividad vigente
-    p.mb-4 La normatividad vigente en Colombia ofrece un marco que orienta el acceso a la información pública, este tema se relaciona con principios de transparencia, publicidad, participación y acceso a documentos públicos.
+    p.mb-4 La normatividad vigente en Colombia ofrece un marco que orienta el acceso a la información pública; este tema se relaciona con principios de transparencia, publicidad, participación y acceso a documentos públicos.
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-0
       .bloque-texto-g__img(role="img" :style="{'background-image':`url(${require_src('@/assets/curso/temas/t6/img9.png')})`}")
       .bloque-texto-g__texto.p-4
-        p.mb-0 La Ley 1712 de 2014 es una referencia importante porque desarrolla el derecho de acceso a la información pública nacional y establece obligaciones para las personas responsables de producir, conservar y divulgar la información. Esta norma permite comprender que la información en poder de las entidades debe de estar en disposición para la ciudadanía.
+        p.mb-0 La Ley 1712 de 2014 es una referencia importante en materia de transparencia y derecho de acceso a la información pública nacional. Esta norma establece disposiciones y obligaciones para los sujetos obligados respecto de la gestión, conservación, publicación y divulgación de la información pública. Asimismo, establece que la información en poder de los sujetos obligados debe estar a disposición de la ciudadanía, de acuerdo con las disposiciones y excepciones previstas en la normativa vigente.
 </template>
 
 <script>

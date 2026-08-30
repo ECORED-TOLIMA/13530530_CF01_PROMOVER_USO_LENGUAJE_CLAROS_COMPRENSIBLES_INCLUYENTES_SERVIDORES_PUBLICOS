@@ -20,7 +20,7 @@
     .row.justify-content-center.mb-0
       .col-lg-10
         .cajon.color-primario.p-4
-          p.mb-0 En este orden de ideas, reconocer el contexto no significa cambiar el contenido de la información pública, sino adecuarla de tal forma que al momento de comunicarla sea más clara, comprensible e incluyente. El mensaje institucional conserva su esencia, pero se organiza y se presenta de acuerdo con las necesidades de la ciudadanía. Así, el contexto se convierte en un criterio importante para evitar barreras comunicativas y garantizar el acceso a la información pública.
+          p.mb-0 En este orden de ideas, reconocer el contexto no significa cambiar el contenido de la información pública, sino adecuarla de tal forma que, al momento de comunicarla, sea más clara, comprensible e incluyente. El mensaje institucional conserva su esencia, pero se organiza y se presenta de acuerdo con las necesidades de la ciudadanía. Así, el contexto se convierte en un criterio importante para evitar barreras comunicativas y garantizar el acceso a la información pública.
 
     Separador
     #t_5_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
@@ -46,7 +46,7 @@
             figure
               img(src="@/assets/curso/temas/t5/img5.svg" alt="")
         h5.text-center Contexto comunicativo
-        p.mb-5 Por otro lado, se relaciona con las condiciones en que se produce, recibe y se interpreta el mensaje. En este contexto intervienen el canal utilizado, el tipo de lenguaje, el formato, la claridad del mensaje, la posibilidad de resolver dudas y la pertinencia del contenido frente a la necesidad ciudadana.
+        p.mb-5 Por otro lado, se relaciona con las condiciones en que se produce, recibe e interpreta el mensaje. En este contexto intervienen el canal utilizado, el tipo de lenguaje, el formato, la claridad del mensaje, la posibilidad de resolver dudas y la pertinencia del contenido frente a la necesidad ciudadana.
 
     .row.justify-content-center.mb-4
       .col-lg-10
@@ -82,7 +82,7 @@
           .row.align-items-center
             .col-lg-6.mb-4.mb-lg-0
               h5 Condiciones culturales
-              p.mb-0 También influyen en la comunicación. Las personas interpretan la información desde su forma de vida, costumbres, lenguajes y experiencias comunicativas. Es por este motivo que una estrategia comunicativa debe de evitar suponer que todas las personas comprenden de la misma forma. Es así, que comunicar con pertinencia cultural implica usar ejemplos cercanos, evitar expresiones que generen exclusión y reconocer que la información pública debe ser cercana con la realidad de las personas que la reciben.
+              p.mb-0 También influyen en la comunicación. Las personas interpretan la información desde su forma de vida, costumbres, lenguajes y experiencias comunicativas. Es por este motivo que una estrategia comunicativa debe evitar suponer que todas las personas comprenden de la misma forma. Es así que comunicar con pertinencia cultural implica usar ejemplos cercanos, evitar expresiones que generen exclusión y reconocer que la información pública debe ser cercana con la realidad de las personas que la reciben.
             .col-lg-6
               figure
                 img(src="@/assets/curso/temas/t5/img8.png" alt="")
@@ -91,7 +91,7 @@
       .col-md-auto.text-center.mb-4.mb-lg-0.d-none.d-lg-block
         img.tema5-icono(src="@/assets/curso/temas/t5/img9.svg" alt="")
       .col
-        p.mb-0 En el contexto comunicativo un elemento importante es el #[strong canal] por donde se emite la información. La entidad puede contar con recursos como página #[i web], redes sociales, correo electrónico, atención presencial, línea telefónica y piezas impresas; sin embargo, el canal más adecuado no siempre es el más moderno, sino el que permite que la información sea comprendida por las personas destinatarias.
+        p.mb-0 En el contexto comunicativo, un elemento importante es el #[strong canal] por donde se emite la información. La entidad puede contar con recursos como página #[i web], redes sociales, correo electrónico, atención presencial, línea telefónica y piezas impresas; sin embargo, el canal más adecuado no siempre es el más moderno, sino el que permite que la información sea comprendida por las personas destinatarias.
 </template>
 
 <script>

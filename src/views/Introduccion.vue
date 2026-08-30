@@ -13,7 +13,7 @@
         figure.h-100
           img(
             src="@/assets/curso/temas/intro/img1.png"
-            alt="Grupo de personas consultando información mediante dispositivos móviles durante una reunión"
+            alt=""
           )
       .col-lg-8
         p Las comunicaciones públicas y ciudadanas cumplen una función esencial en la relación entre el Estado y la ciudadanía, ya que permiten que las personas ejerzan su derecho a acceder, conocer y comprender la información institucional. Sin embargo, este propósito no siempre se cumple cuando los mensajes son extensos, desordenados o poco relacionados con el contexto de la ciudadanía. Estas situaciones generan brechas comunicativas por el uso de tecnicismos, expresiones ambiguas y estructuras poco claras, creando barreras lingüísticas que dificultan la comprensión y limitan el acceso efectivo a la información pública.

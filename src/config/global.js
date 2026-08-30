@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Comunicación pública y acceso ciudadano',
     Description:
-      'En este componente formativo se estudiará la comunicación pública y la ciudadana; resaltando los objetivos, alcances y enfoques según los tipos de información, abordando usos de tecnicismos, barreras lingüísticas, relaciones de poder y garantías de derecho; integrando el uso de lenguajes claros, comprensibles e inclusivos, contexto ciudadano y comunicativo, información pública, normatividad vigente y lineamientos institucionales.',
+      'En este componente formativo se estudiará la comunicación pública y la ciudadana, resaltando los objetivos, alcances y enfoques según los tipos de información, abordando usos de tecnicismos, barreras lingüísticas, relaciones de poder y garantías de derecho; integrando el uso de lenguajes claros, comprensibles e inclusivos, contexto ciudadano y comunicativo, información pública, normatividad vigente y lineamientos institucionales.',
     imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.png',
     fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner-principal.png',
     imagenesDecorativasBanner: [
@@ -95,7 +95,7 @@ export default {
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Garantía de derechos',
+        titulo: 'Garantías de derechos',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -114,7 +114,7 @@ export default {
           {
             numero: '5.1',
             titulo:
-              'Concepto, características, condiciones sociales y culturales',
+              'Características, condiciones sociales y culturales',
             hash: 't_5_1',
           },
         ],
@@ -368,12 +368,12 @@ export default {
         },
         {
           nombre: 'Hugo Armando López',
-          cargo: 'Experta temátic0',
+          cargo: 'Experto temátic0',
           centro: 'Centro Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Andrés Felipe Velandia Espitia',
-          cargo: 'Evaluadora instruccional',
+          cargo: 'Evaluador instruccional',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
@@ -381,6 +381,11 @@ export default {
     {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
+        {
+          nombre: 'Oscar Ivan Uribe Ortiz ',
+          cargo: 'Diseñador de contenidos digitales',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
         {
           nombre: 'José Jaime Luis Tang Pinzón',
           cargo: 'Diseñador de contenidos digitales',
@@ -393,7 +398,7 @@ export default {
         },
         {
           nombre: 'Ernesto Navarro Jaimes',
-          cargo: 'Animador y productor audiovisual',
+          cargo: 'Animador y productor multimedia',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
@@ -402,8 +407,8 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'María Fernanda Pineda Mora',
-          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
+          nombre: 'Jorge Eduardo Rueda Peña',
+          cargo: 'Evaluador de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {

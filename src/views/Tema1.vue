@@ -77,7 +77,7 @@
       img(src="@/assets/curso/icon.svg" alt="")
       span Características fundamentales de la comunicación pública
 
-    p.mb-4 La comunicación pública se fundamenta en el interés general para garantizar que la información transmitida sea de utilidad colectiva y responda a las necesidades reales de la población. También, posee un carácter oficial al representar la postura, normatividad y servicios de la institución gubernamental, y no la de un individuo en particular, rigiéndose bajo el principio de universalidad, el cual exige que los mensajes se diseñen para ser accesibles a todas las personas, sin discriminación de ningún tipo.
+    p.mb-4 La comunicación pública se fundamenta en el interés general para garantizar que la información transmitida sea de utilidad colectiva y responda a las necesidades reales de la población. También posee un carácter oficial al representar la postura, normatividad y servicios de la institución gubernamental, y no la de un individuo en particular, rigiéndose bajo el principio de universalidad, el cual exige que los mensajes se diseñen para ser accesibles a todas las personas, sin discriminación de ningún tipo.
     p.mb-4 La comunicación pública y la comunicación ciudadana se complementan:
 
     SlyderB.mb-4.p-5.tarjeta.color-secundario(:datos="datosSlyder")
@@ -85,7 +85,7 @@
     .row.justify-content-center.mb-4
       .col-lg-10
         .cajon.color-primario.p-4
-          p.mb-0 Esta diferencia permite reconocer que publicar información no siempre significa comunicar de manera efectiva. Para que exista acceso ciudadano, la información de estar disponible, pero también debe ser clara, comprensible e inclusiva.
+          p.mb-0 Esta diferencia permite reconocer que publicar información no siempre significa comunicar de manera efectiva. Para que exista acceso ciudadano, la información debe estar disponible, pero también debe ser clara, comprensible e inclusiva.
 
     p.mb-4 Partiendo de lo anterior, la siguiente tabla presenta una comparación de sus principales características, propósitos, tipos, ejemplos y riesgos asociados:
 
@@ -120,7 +120,7 @@
             td Participativa, comunitaria, de atención ciudadana, de retroalimentación y de interacción con las entidades.
           tr
             td Tipo de información
-            td Información sobre tramites, servicios, programas, normas, convocatorias, derechos, deberes, decisiones administrativas, campañas y canales institucionales.
+            td Información sobre trámites, servicios, programas, normas, convocatorias, derechos, deberes, decisiones administrativas, campañas y canales institucionales.
             td Información que la ciudadanía necesita comprender para acceder a servicios, presentar solicitudes, participar en espacios públicos, resolver inquietudes o ejercer derechos.
           tr
             td Ejemplo
@@ -128,9 +128,9 @@
             td Una persona comprende los requisitos del subsidio, identifica si puede postularse, sabe qué documentos presentar y usa el canal indicado para realizar el trámite.
           tr
             td Riesgo si no se aplica adecuadamente
-            td La información puede quedar publicada, pero no ser comprendida por el exceso de tecnicismos, desorden, falta de claridad o canales por accesibles.
+            td La información puede quedar publicada, pero no ser comprendida por el exceso de tecnicismos, desorden, falta de claridad o canales pocos accesibles.
             td La ciudadanía puede confundirse, abandonar el trámite, no participar o no ejercer un derecho por falta de comprensión de la información.
-    p.mb-4 En este sentido, la comunicación pública permite organizar y divulgar información institucional, mientras que la comunicación ciudadana ayuda a verificar si esa información realmente responde a las necesidades de las personas. Cuando ambas se articulan, se reducen las brechas comunicativas y se fortalece el acceso ciudadano a tramites, servicios, derechos y espacios de participación.
+    p.mb-4 En este sentido, la comunicación pública permite organizar y divulgar información institucional, mientras que la comunicación ciudadana ayuda a verificar si esa información realmente responde a las necesidades de las personas. Cuando ambas se articulan, se reducen las brechas comunicativas y se fortalece el acceso ciudadano a trámites, servicios, derechos y espacios de participación.
 
     .titulo-pastilla.mt-5(data-aos="fade-down")
       img(src="@/assets/curso/icon.svg" alt="")
@@ -188,7 +188,7 @@
               p.mb-0 Incluye diferentes momentos del relacionamiento con el Estado. Está presente cuando una persona consulta información en una página #[i web], lee un cartel institucional, recibe una respuesta escrita o participa en una reunión. En cada uno de estos momentos, la comunicación puede facilitar el proceso o convertirse en una barrera.
           .row(titulo="Enfoque")
             .col-12
-              p.mb-0 Debe ser claro, comprensible e incluyente. Esto implica reconocer que no todas las personas acceden a la información de la misma manera ni tienen las mismas condiciones para interpretarla. Por esta razón, comunicar desde el enfoque ciudadano exige pensar en el leguaje, el canal, el formato, el contexto y la utilidad de la información.
+              p.mb-0 Debe ser claro, comprensible e incluyente. Esto implica reconocer que no todas las personas acceden a la información de la misma manera ni tienen las mismas condiciones para interpretarla. Por esta razón, comunicar desde el enfoque ciudadano exige pensar en el lenguaje, el canal, el formato, el contexto y la utilidad de la información.
       .col-lg-4.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         figure
           img(src="@/assets/curso/temas/t1/img14.png" alt="")
@@ -207,7 +207,7 @@
               figure
                 img(src="@/assets/curso/temas/t1/img16.svg" alt="")
             .col-lg-9
-              p.mb-0 Dentro de los procesos de comunicación entre el Estado y la ciudadanía circulan diferentes tipos de información. Algunas comunicaciones explican normas, otras orientan trámites, presentan servicios, entregan respuestas, convocan a participar o informan decisiones; identificar este tipo de información es importante porque no todos los mensajes se construyen de la misma manera ni cumple con el mismo propósito.
+              p.mb-0 Dentro de los procesos de comunicación entre el Estado y la ciudadanía circulan diferentes tipos de información. Algunas comunicaciones explican normas, otras orientan trámites, presentan servicios, entregan respuestas, convocan a participar o informan decisiones; identificar este tipo de información es importante porque no todos los mensajes se construyen de la misma manera ni cumplen con el mismo propósito.
 
     p.mb-4 Los tipos de información que gestionan las entidades públicas se diferencian por su finalidad y por las condiciones de acceso establecidas en la normatividad. La siguiente tabla presenta las principales categorías y el nivel de acceso que tiene la ciudadanía frente a cada una de ellas:
 

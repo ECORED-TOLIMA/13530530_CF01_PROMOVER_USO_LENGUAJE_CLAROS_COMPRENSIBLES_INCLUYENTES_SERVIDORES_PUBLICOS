@@ -27,7 +27,7 @@
         img(src="@/assets/curso/temas/t2/img2.svg" alt="")
       .col-lg-9
         .cajon.color-secundario.p-3
-          p.mb-0 ¿Cómo debe construirse el lenguaje institucional para que la ciudadanía pueda comprender, usar y relacionar la información con sus derechos, tramites, servicios y decisiones?
+          p.mb-0 ¿Cómo debe construirse el lenguaje institucional para que la ciudadanía pueda comprender, usar y relacionar la información con sus derechos, trámites, servicios y decisiones?
     p.mb-4 La respuesta no depende únicamente de escribir menos o de cambiar algunas palabras. Comunicar de manera clara exige pensar en la persona que recibe el mensaje, en el propósito de la información, en el contexto en el que se entrega y en las acciones que se esperan desarrollar. Por esta razón, los lenguajes claros, comprensibles e inclusivos se convierten en herramientas fundamentales para reducir brechas comunicativas y fortalecer el acceso ciudadano.
     p.mb-4 Por eso, este apartado presenta tres enfoques complementarios:
 
@@ -66,20 +66,20 @@
         img(src="@/assets/curso/temas/t2/img7.png" alt="")
       .col-lg-7
         LineaTiempoD.color-acento-botones
-          p.mb-0(numero="1" titulo="Precisión") Presenta la información necesaria ni datos innecesarios.
+          p.mb-0(numero="1" titulo="Precisión") Presenta la información necesaria de manera exacta, sin datos innecesarios.
           p.mb-0(numero="2" titulo="Organización") Ordena las ideas según las necesidades de quien recibe la información.
           p.mb-0(numero="3" titulo="Caridad") Usa palabras comunes cuando sea posible, sin perder rigor institucional.
           p.mb-0(numero="4" titulo="Coherencia") Mantiene una relación lógica entre las ideas, los pasos y las instrucciones.
           p.mb-0(numero="5" titulo="Utilidad") Permite que la persona comprenda qué debe hacer con la información.
-          p.mb-0(numero="6" titulo="Cercanía institucional") Reduce la distancia en el lenguaje de la entidad y el lenguaje ciudadano.
-    p.mb-0 La aplicación del lenguaje claro requiere implementar un #[strong diseño centrado en el usuario] para identificar de forma previa quién es el receptor real del documento o respuesta, articulado con una #[strong estructura lógica] que organice la información mediante la pirámide invertida, situando las conclusiones o requisitos al principio. También, se debe #[strong garantizar la brevedad y concisión] a través del empleo de oraciones cortas, de preferencia con menos de veinticinco palabras, eliminando expresiones redundantes u ornamentales y priorizando el uso de la #[strong voz activa] para redactar de forma directa e indicar con precisión quién realiza la acción.
+          p.mb-0(numero="6" titulo="Cercanía institucional") Reduce la distancia entre el lenguaje de la entidad y el lenguaje ciudadano.
+    p.mb-0 La aplicación del lenguaje claro requiere implementar un #[strong diseño centrado en el usuario] para identificar de forma previa quién es el receptor real del documento o respuesta, articulado con una #[strong estructura lógica] que organice la información mediante la pirámide invertida, situando las conclusiones o requisitos al principio. También se debe #[strong garantizar la brevedad y concisión] a través del empleo de oraciones cortas, de preferencia con menos de veinticinco palabras, eliminando expresiones redundantes u ornamentales y priorizando el uso de la #[strong voz activa] para redactar de forma directa e indicar con precisión quién realiza la acción.
     Separador
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 2.2 Lenguaje comprensible: concepto, características, claridad y coherencia
     .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-4
       .bloque-texto-g__img(role="img" aria-label="Dos personas conversando en un entorno laboral" :style="{'background-image':`url(${require_src('@/assets/curso/temas/t2/img8.png')})`}")
       .bloque-texto-g__texto.p-4
-        p.mb-0 El lenguaje comprensible se relaciona con la posibilidad real de que una persona entienda el mensaje que recibe. Un texto puede estar escrito con palabras sencillas y aun así no ser comprensible si las ideas están desordenadas, si falta información importante o si no explica qué se debe de realizar.
+        p.mb-0 El lenguaje comprensible se relaciona con la posibilidad real de que una persona entienda el mensaje que recibe. Un texto puede estar escrito con palabras sencillas y aun así no ser comprensible si las ideas están desordenadas, si falta información importante o si no explica qué se debe realizar.
     p.mb-4 El lenguaje comprensible tiene las siguientes características:
     .row.justify-content-center.mb-4
       .col-md-6.col-xl-3.mb-4.mb-xl-0
@@ -93,7 +93,7 @@
           .tarjeta-numerada__numero
             .h2 2
           h5.text-center Claridad
-          p.mb-0.text-center La información debe de expresar las ideas principales sin ambigüedades.
+          p.mb-0.text-center La información debe expresar las ideas principales sin ambigüedades.
       .col-md-6.col-xl-3.mb-4.mb-md-0
         .tarjeta-numerada.tema2-caracteristica--3.p-5.h-100
           .tarjeta-numerada__numero
@@ -126,7 +126,7 @@
     .row.justify-content-center.mb-4
       .col-lg-10
         .cajon.color-primario.p-4
-          p.mb-0 Usar lenguaje inclusivo no significa hacer textos más complejos ni reforzar expresiones difíciles de leer, su finalidad es comunicar con #[strong respeto, precisión y reconocimiento]. En el contexto institucional, esto implica revisar si los mensajes tratan a las personas de manera #[strong digna], si evitan generalizaciones que puedan excluir y si usan términos adecuados para referirse a grupos los grupos poblacionales.
+          p.mb-0 Usar lenguaje inclusivo no significa hacer textos más complejos ni reforzar expresiones difíciles de leer; su finalidad es comunicar con #[strong respeto, precisión y reconocimiento]. En el contexto institucional, esto implica revisar si los mensajes tratan a las personas de manera #[strong digna], si evitan generalizaciones que puedan excluir y si usan términos adecuados para referirse a los grupos poblacionales.
     p.mb-4 Las características que lo destacan son las siguientes:
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-5.col-8.mb-4.mb-lg-0
@@ -139,7 +139,7 @@
           p.mb-0(numero="4" titulo="No discriminación") Evita palabras que refuercen estereotipos o exclusiones.
           p.mb-0(numero="5" titulo="Claridad") Mantienen mensajes comprensibles y fáciles de leer.
           p.mb-0(numero="6" titulo="Pertinencia") Ajusta el lenguaje al contexto y al propósito comunicativo.
-    p.mb-4 Finalmente, en la comunicación pública los lenguajes inclusivos tienen unas tipificaciones o categorías que permiten la distinción entre grupos poblacionales para evitar temas como la discriminación, los estereotipos o la reducción del individuo a una sola condición. Una comunicación puede utilizar términos “correctos”, pero pueden seguir siendo excluyentes si no tiene en cuenta las condiciones de acceso, comprensión o participación de las personas.
+    p.mb-4 Finalmente, en la comunicación pública, los lenguajes inclusivos tienen unas tipificaciones o categorías que permiten la distinción entre grupos poblacionales para evitar temas como la discriminación, los estereotipos o la reducción del individuo a una sola condición. Una comunicación puede utilizar términos “correctos”, pero pueden seguir siendo excluyentes si no tiene en cuenta las condiciones de acceso, comprensión o participación de las personas.
     .tema2-descarga.p-4.p-lg-5.mb-0
       .row.align-items-center
         .col-lg-4.mb-4.mb-lg-0
