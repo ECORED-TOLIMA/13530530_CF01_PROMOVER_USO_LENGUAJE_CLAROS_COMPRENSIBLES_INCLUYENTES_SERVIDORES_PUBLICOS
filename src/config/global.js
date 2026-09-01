@@ -208,7 +208,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/13530530_CF01_CFA_DU.zip',
+        download: 'downloads/13530530_CF01_CFA.zip',
       },
       {
         icono: 'fas fa-download',
@@ -368,7 +368,7 @@ export default {
         },
         {
           nombre: 'Hugo Armando López',
-          cargo: 'Experto temátic0',
+          cargo: 'Experto temático',
           centro: 'Centro Servicios de Salud - Regional Antioquia',
         },
         {
