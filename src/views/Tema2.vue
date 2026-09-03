@@ -68,7 +68,7 @@
         LineaTiempoD.color-acento-botones
           p.mb-0(numero="1" titulo="Precisión") Presenta la información necesaria de manera exacta, sin datos innecesarios.
           p.mb-0(numero="2" titulo="Organización") Ordena las ideas según las necesidades de quien recibe la información.
-          p.mb-0(numero="3" titulo="Caridad") Usa palabras comunes cuando sea posible, sin perder rigor institucional.
+          p.mb-0(numero="3" titulo="Claridad") Usa palabras comunes cuando sea posible, sin perder rigor institucional.
           p.mb-0(numero="4" titulo="Coherencia") Mantiene una relación lógica entre las ideas, los pasos y las instrucciones.
           p.mb-0(numero="5" titulo="Utilidad") Permite que la persona comprenda qué debe hacer con la información.
           p.mb-0(numero="6" titulo="Cercanía institucional") Reduce la distancia entre el lenguaje de la entidad y el lenguaje ciudadano.

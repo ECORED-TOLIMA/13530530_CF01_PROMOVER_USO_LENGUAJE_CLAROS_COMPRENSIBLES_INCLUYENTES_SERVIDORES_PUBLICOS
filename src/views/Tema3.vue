@@ -76,7 +76,7 @@
             img(src="@/assets/curso/temas/t3/img15.svg" alt="")
         h5.text-center Poder participativo
         p.mb-5 La entidad habilita o limita espacios para que la ciudadanía intervenga y haga seguimiento.
-    p.mb-4 Identificar estos tipos de relaciones permite comprender que la información pública no solo debe ser correcta desde el punto de vista institucional sino también debe ser útil para la ciudadanía. Una comunicación basada únicamente en la autoridad de la entidad puede ser legalmente válida, pero poco comprensible. En cambio, una comunicación que explica, orienta y reconoce a las personas ayuda a generar un equilibrio en las relaciones de poder, porque facilita el acceso a la información.
+    p.mb-4 Identificar estos tipos de relaciones permite comprender que la información pública no solo debe ser correcta desde el punto de vista institucional, sino que también debe ser útil para la ciudadanía. Una comunicación basada únicamente en la autoridad de la entidad puede ser legalmente válida, pero poco comprensible. En cambio, una comunicación que explica, orienta y reconoce a las personas ayuda a generar un equilibrio en las relaciones de poder, porque facilita el acceso a la información.
     .titulo-pastilla.mt-4(data-aos="fade-down")
       img(src="@/assets/curso/icon.svg" alt="")
       span Ejercicio de poder en el relacionamiento Estado-ciudadanía
@@ -92,23 +92,21 @@
 </template>
 
 <script>
-import img4 from '@/assets/curso/temas/t3/img4.png'
-import img5 from '@/assets/curso/temas/t3/img5.png'
-import img6 from '@/assets/curso/temas/t3/img6.png'
-import img7 from '@/assets/curso/temas/t3/img7.png'
-import img8 from '@/assets/curso/temas/t3/img8.png'
-import img9 from '@/assets/curso/temas/t3/img9.png'
 
 export default {
   name: 'Tema3',
   data: () => ({
     datosSlyder: [
-      { titulo: 'Asimetría de información', texto: 'La entidad suele conocer con mayor profundidad las normas, los requisitos, los procesos y los tiempos de atención que la ciudadanía. Esta diferencia hace necesario comunicar la información de forma clara para facilitar su comprensión y uso.', imagen: img4 },
-      { titulo: 'Autoridad institucional', texto: 'El Estado tiene la capacidad de tomar decisiones, establecer requisitos y emitir respuestas oficiales dentro del marco de sus competencias. Por ello, sus mensajes deben ser transparentes, precisos y acordes con la normatividad vigente.', imagen: img5 },
-      { titulo: 'Dependencia ciudadana de la información', texto: 'Las personas necesitan información clara, completa y oportuna para acceder a servicios, realizar trámites, ejercer sus derechos y cumplir sus deberes de manera adecuada.', imagen: img6 },
-      { titulo: 'Responsabilidad comunicativa', texto: 'Las entidades públicas tienen el deber de entregar información clara, comprensible e incluyente, utilizando un lenguaje que facilite el acceso, la interpretación y el uso de la información por parte de toda la ciudadanía.', imagen: img7 },
-      { titulo: 'Participación', texto: 'Una comunicación clara y accesible favorece que la ciudadanía pregunte, opine, presente solicitudes, participe en espacios de diálogo y ejerza un papel activo en los asuntos de interés público.', imagen: img8 },
-      { titulo: 'Exclusión', texto: 'El uso de un lenguaje complejo, excesivamente técnico o poco accesible puede limitar el acceso de algunas personas a la información pública, dificultando su participación y el ejercicio efectivo de sus derechos.', imagen: img9 },
+      {
+        titulo: 'Asimetría de información',
+        texto: 'La entidad suele conocer con mayor profundidad las normas, los requisitos, los procesos y los tiempos de atención que la ciudadanía. Esta diferencia hace necesario comunicar la información de forma clara para facilitar su comprensión y uso.',
+        imagen: '@/assets/curso/temas/t3/img4.png',
+      },
+      { titulo: 'Autoridad institucional', texto: 'El Estado tiene la capacidad de tomar decisiones, establecer requisitos y emitir respuestas oficiales dentro del marco de sus competencias. Por ello, sus mensajes deben ser transparentes, precisos y acordes con la normatividad vigente.', imagen: '@/assets/curso/temas/t3/img5.png' },
+      { titulo: 'Dependencia ciudadana de la información', texto: 'Las personas necesitan información clara, completa y oportuna para acceder a servicios, realizar trámites, ejercer sus derechos y cumplir sus deberes de manera adecuada.', imagen: '@/assets/curso/temas/t3/img6.png' },
+      { titulo: 'Responsabilidad comunicativa', texto: 'Las entidades públicas tienen el deber de entregar información clara, comprensible e incluyente, utilizando un lenguaje que facilite el acceso, la interpretación y el uso de la información por parte de toda la ciudadanía.', imagen: '@/assets/curso/temas/t3/img7.png' },
+      { titulo: 'Participación', texto: 'Una comunicación clara y accesible favorece que la ciudadanía pregunte, opine, presente solicitudes, participe en espacios de diálogo y ejerza un papel activo en los asuntos de interés público.', imagen: '@/assets/curso/temas/t3/img8.png' },
+      { titulo: 'Exclusión', texto: 'El uso de un lenguaje complejo, excesivamente técnico o poco accesible puede limitar el acceso de algunas personas a la información pública, dificultando su participación y el ejercicio efectivo de sus derechos.', imagen: '@/assets/curso/temas/t3/img9.png' },
     ],
   }),
 }
