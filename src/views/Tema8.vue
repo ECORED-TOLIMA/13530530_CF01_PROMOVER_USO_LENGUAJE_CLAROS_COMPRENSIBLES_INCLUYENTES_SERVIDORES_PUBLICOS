@@ -14,7 +14,7 @@
       .col-lg-7
         p Publicar un documento institucional es solo el primer paso; su trabajo no termina solo en su divulgación. Es muy importante revisarlo y garantizar que la información sea fácil de comprender por las personas a quienes va dirigida. Un documento puede contener información correcta desde el punto de vista normativo y técnico, pero si presenta exceso de información, tecnicismos o instrucciones confusas, puede presentar dificultades para ser entendido y termina alejando a las personas de la información.
         .cajon.color-secundario.p-4
-          p.mb-0 Para solucionarlo, la #[strong Guía de lenguajes claros, comprensibles e incluyentes del SENA] propone evaluar la comprensión del contenido desde la experiencia real de las personas. Estas metodologías parten de una regla simple: Si se desea saber si un documento es claro, solo se observa cómo lo usan, y lo entienden quienes necesitan utilizarlo.
+          p.mb-0 Para solucionarlo, la #[strong Guía de lenguajes claros, comprensibles e incluyentes del SENA] propone evaluar la comprensión del contenido desde la experiencia real de las personas. Estas metodologías parten de una regla simple: si se desea saber si un documento es claro, solo se observa cómo lo usan, y lo entienden quienes necesitan utilizarlo.
 
     .row.align-items-center.mb-0
       .col-md-auto.text-center.mb-4.mb-md-0.d-none.d-lg-block
