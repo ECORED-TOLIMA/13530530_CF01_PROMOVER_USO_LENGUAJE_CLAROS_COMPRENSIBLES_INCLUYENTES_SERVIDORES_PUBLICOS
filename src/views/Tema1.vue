@@ -93,7 +93,6 @@
       h5 Tabla 1.
       span Comparación entre la comunicación pública y la comunicación ciudadana
 
-
     .tabla-a.color-acento-contenido.tema1-tabla.mb-4
       table
         thead
@@ -128,7 +127,7 @@
             td Una persona comprende los requisitos del subsidio, identifica si puede postularse, sabe qué documentos presentar y usa el canal indicado para realizar el trámite.
           tr
             td Riesgo si no se aplica adecuadamente
-            td La información puede quedar publicada, pero no ser comprendida por el exceso de tecnicismos, desorden, falta de claridad o canales pocos accesibles.
+            td La información puede quedar publicada, pero no ser comprendida por el exceso de tecnicismos, desorden, falta de claridad o canales poco accesibles.
             td La ciudadanía puede confundirse, abandonar el trámite, no participar o no ejercer un derecho por falta de comprensión de la información.
     p.mb-4 En este sentido, la comunicación pública permite organizar y divulgar información institucional, mientras que la comunicación ciudadana ayuda a verificar si esa información realmente responde a las necesidades de las personas. Cuando ambas se articulan, se reducen las brechas comunicativas y se fortalece el acceso ciudadano a trámites, servicios, derechos y espacios de participación.
 

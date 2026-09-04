@@ -20,7 +20,7 @@
         .row.p-4.mb-3
           .col-lg-2.d-none.d-lg-block 
             img.tema1-apertura__icono.mb-4(src="@/assets/curso/temas/t7/img3.svg" alt="")
-          p.mb-0 Los lineamientos institucionales permiten que la información no dependa únicamente de la forma personal de quien redacta o atiente. Su función es ofrecer una ruta común para que la información sea clara, comprensible, respetuosa y útil. De esta manera, las personas pueden encontrar mensajes más ordenados y recibir una atención más cercana sin importar el canal que utilicen para acceder a la información.
+          p.mb-0 Los lineamientos institucionales permiten que la información no dependa únicamente de la forma personal de quien redacta o atiende. Su función es ofrecer una ruta común para que la información sea clara, comprensible, respetuosa y útil. De esta manera, las personas pueden encontrar mensajes más ordenados y recibir una atención más cercana sin importar el canal que utilicen para acceder a la información.
 
     .row.align-items-center.mb-0
       .col-md-auto.text-center.mb-4.mb-md-0.d-none.d-lg-block
